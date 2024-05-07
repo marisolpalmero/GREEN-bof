@@ -1,0 +1,112 @@
+Webex Recording:
+
+
+Meeting Notes:
+
+
+
+
+
+Webex Chat:
+
+Michael Welzl • There's this:
+https://github.com/billwuqin/Green-Energy-Network/tree/main
+
+Jari Arkko • I added an issue there, great start but worth maybe shrinking a bit.
+
+Rob Wilton • I would quite like something but being able to turn on/off parts of the the system to save energy.  E.g., something along the lines of Tony's draft.  I don't know this is exactly the right model, but it seems useful.
+
+Robert Raszuk • Rob This is very important point. But I am struggling how much of this should be local to the device vs network wide action ? Lot's of devices today reduce power usage when not needed autonomously. 
+
+Tony Li • Robert, my draft supports both control of individual components plus autonomous control.
+
+Robert Raszuk • Is there some place your and other drafts in this space could be found ?
+
+Tony Li • Draft names are listed in the draft charter.
+
+Jari Arkko • Well said, Rob 
+
+Rob Wilton • @Robert, yes some devices will reduce power, but core routers don't seem to do this that effectively (or we could do much better).  E.g , you can get much bigger savings if you are able to move traffic off a link/NPU/LC and then power down optics/NPU/LC.
+
+Tony Li • I beg to differ with my esteemed colleague from Cisco.
+
+Rob Wilton • Tony, which bit?
+
+Tony Li • Core routers actually do a good job at efficiency today. However, they lack information about anticipated traffic levels. They can do better if they are given more data. This is also listed in my draft with expected interface traffic levels.
+I completely agree that powering off components is essential and that traffic engineering is the best way of accomplishing that.
+
+Robert Raszuk • I think to start there is big difference between "power down" and move to "stand by" Shifting traffic may be pretty drastic network event involving lot's of network operational elements. Just think for example of Adj. SIDs and make before break reprogramming paradigm
+
+Tony Li • I think that the only real difference is what the hardware supports. Legacy hardware may not have a full ASIC power-off capability but may be able to clock gate the chip. Shifting traffic through traffic-engineering techniques is very common already today. Yes, it's all done with MBB.
+
+Robert Raszuk • Question - Is this work aiming for intradomain or interdomain or both ? Perhaps in phase 1 going to shut external facing components may be a bit too big ask. 
+
+Michael Welzl • I agree about "ecodesign" metrics: we have mentioned some of these in our ICMP draft: e.g., there is ISO 14001:2015.
+
+Suresh Krishnan • Robert: I agree. Personally, I am for intradomain at least initially
+
+Rob Wilton • I would assume that deciding which components to enable/disable is going to up to the controller and operator policy.
+
+Oscar • Not only that... It's not just policiy, the impact on other parts of the network or other components is required. So... that needs study
+
+Tony Li • The advantage of the controller approach is that it has global scope.
+Domain is no longer a meaningful term. Too many networks have gone multi-domain. Someone's marketing team has spent too long proposing bad design practices.
+
+Robert Raszuk • To clarify ... by "interdomain" I mean outside of operators control. It could be 1 or N ASNs.
+
+Tony Li • Inter-network traffic engineering for any purpose is still a research problem.
+
+Robert Raszuk • Ok so we leave 1000s of external interfaces and only focus on 10s of intradomain ? Reason I am trying to clarify this as it seems important to note up front. 
+
+Tony Li • If you have proposals, make them. Most networks have those numbers reversed.
+
+Robert Raszuk • What I mean is not to focus on boolean ON/OFF ... but reduce power proportionally to the  effective BW used on the interfaces. 
+
+Mahesh Jethanandani • Marisol, can you share the GitHub location where you want folks to contribute here, and on the green-bof mailing list?
+
+Jari Arkko • Just an observation about the power on/off bit. It is a part that we need of course. But in the IETF we seem to be quite focused on only on/off. In other fields, e.g., mobile networks, significant power savings can be gained through microsleep approaches, e.g., shutting down radio power amplifiers when we know there is no traffic. I think this is due to the details of the link layers and what's possible in them. Cellular radios and fiber can be different for instance. My point is that that we should not think a single approach is sufficient. We need both microsleeps and abiilty to shut things down.
+
+Tony Li • Microsleep seems like it's a purely internal approach. I support providing devices with more information so that they can make intelligent internal decisions.
+
+Robert Raszuk • Well the big question is if internal approach can accomplish 80% of power reduction do we still need external ones ? 
+
+Tony Li • We still need external ones. Component power off requires traffic engineering, which has global scope.
+
+Robert Raszuk • But is component power off really needed if we do right with power reduction to say 95% of max power ? Sure easier said then done as requires hardware redesign ... 
+Jari Spot on ! This is exactly when I was heading with my comment ... 
+
+Qin Wu • https://github.com/billwuqin/Green-Energy-Network
+
+Mahesh Jethanandani • Time check. We have less than 15 minutes left.
+
+Rob Wilton • I think that we should move discussion on to who is taking actions and next steps.
+
+Jari Arkko • Yes
+
+Qin Wu • Agree with Ali lifecycle is targeting to broad scope which has been discussed in many other SDOs
+
+Oscar • I think we should decouple how to use the metrics from the metrics/characterization itself... "Green Traffic Engineering" will be a topic on its own......
+
+Rob Wilton • I still think the BOF charter is potentially looking quite long, and still think that we may want to try and scope it down.  Assuming that we are collectively able to do then is there anyone who thinks that we SHOULD NOT try and do a BOF request now for IETF 120?
+
+Suresh Krishnan • Yep. Agree Rob. That's why I suggested starting from scratch and additively building in what we need. I am a +1 for a BoF Request for IETF 120
+
+Ali Rezaki (Nokia) • It will be important to define the positioning of this WG w.r.t. the E-impact Program for everyone to understand the scope of each more precisely.
+
+Suresh Krishnan • Agree Ali. I will propose some text once there is a GitHub space for the charter.
+
+Tony Li • We should position this as the successor to e-impact.
+
+Rob Wilton • My thinking was that e-Impact was for longer term (not yet baked) discussions and that this WG was for better understood work that we can solve now.
+
+Mahesh Jethanandani • Yes, this time works
+
+Tony Li • This time is awkward.
+
+Mahesh Jethanandani • I would set up calls all the way till the deadline
+
+Robert Raszuk • This time works fine 
+
+Mahesh Jethanandani • Do a Doodle poll to find some good times
+I have a conflict next Monday.
+But subsequent Mondays should be fine
