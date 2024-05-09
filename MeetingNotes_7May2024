@@ -115,6 +115,31 @@ new metrics in the future. (yes)
 It was concluded we need to document use cases a well as include
 positioning to the e-impact program (successor, narrowed down scope?).
 
+Key takeaways:
+
+- The scope is to be agreed, documented, and updated via PR on GitHub.
+  A new repo to be created to keep it clean.
+- scope has to be limited and aimed on what is feasible to achieve in
+  1-2 periods, focused on operations and not much changes into protocols
+  under the jurisdiction of the other WGs (for now)
+- device and component metrics are of wide interest for all, but linked
+  to the specific use cases, and consequently understand the need to
+  aggregate, granularity, where, how often..
+- The framework seems desirable but needs some more thoughts
+- The metrics shall lead to actions that can help improve efficiency
+- Need to understand the other non-IT producers (such as cooling) and
+  explore if sync is possible
+- characterization of devices (aka. static info) seems desirable
+- LCA need more discussion
+
+Action Points:
+
+1. Marisol and Snezana to share notes and webex recording (available now
+   at: https://github.com/marisolpalmero/GREEN-bof)
+2. Create BOF and WG proposals synchronously (Marisol, Qin, and Snezana.
+   Who else shall be added as PR reviewer?)
+3. Meet regularly until the deadline on the 24th of May
+4. Discussion to take place on green-bof@ietf.org mailing list
 
 
 
