@@ -1,17 +1,125 @@
-Webex Recording:
+** Webex Recording: **
 
 Webex meeting recording: BOF proposal for creation of GREEN WG creation-20240507 1602-1
 Password: eJJHGeF2
 Recording link: https://cisco.webex.com/cisco/ldr.php?RCID=d9d0eaed5d965b2c63344695fee89292
 
 
-Meeting Notes:
- <To be updated>
+** Meeting Notes: **
+
+Topic: GREEN BOF Proposal
+Date: 2024-05-07
+Attendees:
+ Ali Rezaki Nokia
+ Qin Wu
+ emile.stephan@orange.com
+ Giuseppe Fioccola
+ Gonzalo Salgueiro
+ Hesham ElBakoury
+ Jari Arkko
+ Jan Lindblad
+ Kent Watsen
+ Luis M. Contreras Telefonica
+ Michael Welzl
+ Mahesh Jethanandani
+ Marisol Palmero Amador
+ Oscar Gonzaled De Dios
+ Per Andersson
+ Robert Raszuk
+ Rob Wilton
+ Snezana Mitrovic
+ Suresh Krishnan
+ Tony Li
+ Vishnu Pavan Beeram
+
+
+Marisol introduced the agenda, provided the background of some work that
+previously happened, and introduced the goal of the call: to discuss and
+agree on the scope of the BOF.
+
+Logistics: Suresh suggested using git to document and use the PR to
+submit the changes. Pick proponents to review PRs and merge.
+
+It was pointed (Michael W and Suresh) to
+https://github.com/billwuqin/Green-Energy-Network/tree/main (charter
+proposal), and feedback was provided that it is too wide and could use
+some shrinking. There is
+
+The scope shall be short-term, narrowed down to a set of topics that we
+want to look at (also what is out of scope); with three to four clear
+deliverables that can be achieved in a year or two.
+
+Qin proposed that the charter and BOF proposal are linked, and Suresh
+confirmed that is how is typically done, but with clearly identified
+scope. To have the documentation in the same place (git) was agreed.
+
+Jari provided insights on the charter text so far, and suggested
+refining the scope to what is feasible short term, for example including
+device and component level metrics; ICMP transport for environmental
+information has too many open issues at this time to be feasible to
+include immediately - it needs some work. Further, the need for a
+framework needs to be evaluated, maybe starting at the device level
+first.
+
+Jan suggested the reason for having a framework at this time as we can
+not assume all devices will have YANG implemented and that we will be
+able to collect metrics right from it, and also the absence of the
+common counters and models - and a few years to implement it (if decided
+to do it). So what can be done is on the controller level and the
+framework is connected to that.
+
+Tony suggested that metrics are important, but there is more we should
+be doing, putting solutions in place. Actions vs Measurements. Rob
+pointed out Tony's draft around actions that can help save energy.
+
+Ali pointed out that we need to be clear on language, we speak about
+energy, metrics, efficiency, and sustainability. Need to clarify, and
+then also need to identify for which use cases metrics are used. Target
+levels and how to get there.
+
+It was suggested to start the proposal from scratch and work with Qin to
+identify the short limited scope keeping in mind we are in OPS
+(operations) area, without changing the routing protocols, for example.
+
+Oscar pointed out the need for discussion industry-wide about the
+characterization of the devices (something along the lines of static
+data), if there is power power-saving feature, idle power etc.
+
+Rob pointed out the possible scope creep, terminology, and metrics and
+suggested operator should be involved early to be able to identify what
+is important. Also, document what is not in scope.
+
+Luis also pointed some metrics may be aggregated, for that we need to
+understand how we consume metrics, how to aggregate, and who the
+producers and also look into other non-IT producers (like cooling) and
+try to have some synchronization with the other producers to be able to
+create a complete picture.
+
+Qin pointed to other WGs work also other organizations,  avoid overlap
+and reuse, and provided references.
+
+Ali highlighted the need for use cases; reporting for compliance reasons
+vs granular with intention to take action/reduce, have different
+requirements for collection/observation. What is burning metric that can
+help to reduce consumption and improve efficiency?
+
+Emile brought up the topic of LCA - Lifecycle assessment, the impact of,
+for example, hardware change of line card for more efficient one.
+Clarification was asked are we looking into metrics that can help with
+LCA or assessment itself (that seemed a bigger effort), need more
+discussion on this.
+
+Hesham seeks clarification on whether we want to keep it flexible to add
+new metrics in the future. (yes)
+
+It was concluded we need to document use cases a well as include
+positioning to the e-impact program (successor, narrowed down scope?).
 
 
 
 
-Webex Chat:
+
+** Webex Chat: **
 
 Michael Welzl • There's this:
 https://github.com/billwuqin/Green-Energy-Network/tree/main
