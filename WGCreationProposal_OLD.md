@@ -1,9 +1,17 @@
-** Birds of a Feather WG Creation Proposal ** 
+To be deleted based on new GREEN WG proposal
+new file in GREEN-bof repo:
+GreenCharterProposal.md
+
+Track changes of this new file under: https://github.com/billwuqin/Green-Energy-Network/blob/main/GreenCharterProposal.md
+(refer to PR #9, #10 under Qin's repo)
+
+
+** Birds of a Feather for WG Creation Proposal ** 
 
 
 **Title:**  
 
-Green Metrics BoF 
+Green Metrics 
 
 
 **Background and Problem Statement:** 
@@ -71,7 +79,7 @@ The GREEN WG will aim to develop standards and guidelines that:
 
 - Propose and ratify an architectural framework for energy and sustainability reporting (Q1 2025). 
 
-- Draft and publish YANG models for operational energy efficiency and lifecycle assessment reporting (Q2 2025). 
+- Draft and publish YANG models for operational energy efficiency and lifecycle assessment metrics (Q2 2025). 
 
 - Demonstrate initial implementations and use cases of the YANG models in network devices (Q4 2025). 
 

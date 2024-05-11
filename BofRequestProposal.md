@@ -1,21 +1,15 @@
-# Name: GREEN metrics 
+# Name: Green Ready Energy Efficiency Network (GREEN) 
 ## Description 
 
- The first step in addressing these energy management challenges is in measuring, collecting and aggregating metrics to quantify the energy impact of 
-Internet technologies in deployed networks.  While there have been ongoing attempts to generate and collect sustainability related metrics, 
-these metrics have not been standardized and vary widely between different networks and operators. This makes it very difficult to have a consistent 
-view of the metrics in a multi-vendor and/or multi-operator environment. Also, even when the metrics are for similar items the definitions of the metrics 
-and the collection methodologies vary widely across the industry. This leads to inconsistent, redundant, and possibly contradictory metrics. Hence there 
-is a need for consistent and standardized metrics with precise definitions that are commonly used across networks. 
+As the imperative to improve energy efficiency gains momentum, network operators increasingly focus on understanding energy consumption usage across links, nodes and devices within their networks. 
+Energy aware networking encompasses deploying and managing network infrastructures to reduce energy consumption, optimize energy efficiency, and minimize environmental impact. This will involve technologies to monitor energy consumption, evaluate the effectiveness of energy saving polices, use control strategies to improve energy efficiency, and foster sustainability in network operations.
 
-While this standardized set of sustainability and energy management metrics is being developed there will be a period where a large fraction of deployed 
-equipment in the field will be incapable of supporting these standardized metrics and there needs to be a framework to normalize these legacy metrics 
-(either from dynamic or static data) to conform to the new standard metrics to support incremental deployment of these new metrics and mechanisms.  
+The goal of the GREEN WG is to develop a suite of short-term deliverables aimed at enhancing energy efficiency within network operations. Key objectives include standardizing terms and definitions for energy metrics, reporting energy usage across different network levels via YANG models, crafting data models for lifecycle assessment to support circular economy strategies, and providing YANG RPCs for better energy management. Additionally, the group will create a framework for the effective collection and utilization of these metrics and attributes. The GREEN WG's approach is to tackle energy efficiency challenges in a systematic and incremental manner, focusing on practical building blocks that contribute to overarching energy efficiency goals.
 
 ## Required Details
 - Status: WG Forming
 - Responsible AD: Mahesh Jethanandani
-- BOF proponents: 
+- BOF proponents: Emile Stephan <emile.stephan@orange.com>, 
 - Number of people expected to attend: 
 - Length of session: 2 hours
 - Conflicts (whole Areas and/or WGs)
