@@ -28,14 +28,12 @@ GREEN WG is chartered to concentrate on short-term deliverables such as:
 It may be complex and time-consuming to attempt to address all issues related to power consumption and energy efficiency in one go, but it can be practical to select building-blocks that will contribute to the larger effort. The GREEN WG will combine concrete approaches to develop tools that will serve as a foundation for new energy efficiency strategies.
 
 **Out of Scope**
-   - At this time, routing protocols and energy aware routing algorithms considering energy consumption factors are far from mature
-     and are not in scope for this WG. 
-   - Benchmarking methodology for power consumption in networking devices belongs in the BMWG, and is not in scope
-     for this WG.
-   - Specification of Network Quality Analysis (NQA) techniques to understand the impact of energy efficiency optimization on service quality, such as ICMP extensions for 
-     collection of environmental information.
-   - Regulatory Reporting, Compliance, and Corporate Responsibility Disclosure 
+To stay focused, this working group will not address all issues. And some topics may already be covered elsewhere while others may not be mature enough or have unresolved security models. In any case, the following topics are not within the scope of the working group:
 
+   - Routing protocols and energy aware routing algorithms considering green energy factors
+   - Benchmarking methodology for power consumption in networking devices (a work item of the BMWG)
+   - Methodologies for understanding the impact of energy efficiency optimization on service quality
+   - Regulatory, compliance, and corporate responsibility related matters
 
 **Milestones:** 
 
