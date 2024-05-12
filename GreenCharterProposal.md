@@ -2,7 +2,8 @@ Charter proposal for Green Ready Energy Efficiency Network (GREEN)
 
 **Background and Motivation**
 
-As the imperative to improve energy efficiency gains momentum (e.g., ITU-T SG5 has been tasked with development of energy efficiency metrics, KPI, ETSI TCEE works on environmental efficiency related standards covering server, data storage, network equipments), network operators increasingly focus on understanding energy consumption usage across links,nodes and devices within their networks. 
+Energy efficiency gains for communication systems are highly sought after, for environmental, business, and technical reasons. Network operators increasingly focus on understanding energy consumption usage across their networks. This influences of course also standards organizations in the information technology field, e.g., work on energy efficiency metrics and various technology improvements.
+
 Energy aware networking encompasses deploying and managing network infrastructures to reduce energy consumption, and minimize environmental impact. This will involve technologies to monitor energy consumption, evaluate the effectiveness of energy saving polices, use control strategies to improve energy efficiency, and foster sustainability in network operations.
 
 Improving operational energy efficiency, as part of global sustainability efforts, may also necessitate enhancing inventory attributes, thereby contributing to a more sustainable lifecycle for network devices.It should also be about actually putting in place technology that improves our energy efficiency and sustainability.
