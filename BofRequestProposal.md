@@ -1,4 +1,4 @@
-# Name: Green Ready Energy Efficiency Network (GREEN) 
+# Name: Getting Ready for Energy-Efficient Networking (GREEN)
 ## Description 
 
 As the imperative to improve energy efficiency gains momentum, network operators increasingly focus on understanding energy consumption usage across links, nodes and devices within their networks. 
