@@ -8,14 +8,16 @@ This BoF is intended to discuss these objectives and determine whether there is 
 This working group would develop a suite of short-term deliverables aimed at enhancing energy efficiency within networks. Key objectives include standardizing terms and definitions for energy metrics, reporting energy consumption usage at different levels in the network via YANG models, and providing YANG RPCs for better energy management. Additionally, the group could create a framework to describe the effective collection and utilization of these metrics and attributes. The proposed approach is to tackle energy efficiency challenges in a systematic and incremental manner, focusing on practical building blocks that contribute to overarching energy efficiency goals.
 
 ## Required Details
+
 - Status: WG Forming
 - Responsible AD: Mahesh Jethanandani
-- BOF proponents: Emile Stephan <emile.stephan@orange.com>, 
-- Number of people expected to attend: 
+- Chairs: TBD
+- BOF proponents: Marisol Palmero Amador (mpalmero@cisco.com), Qin Wu (bill.wu@huawei.com) 
+- Number of people expected to attend: 150
 - Length of session: 2 hours
 - Conflicts (whole Areas and/or WGs)
    - Chair Conflicts: TBD
-   - Technology Overlap: TBD
+   - Technology Overlap: OPS Area, RTGWG, LSR
    - Key Participant Conflict: TBD
 
 ## Information for IAB/IESG
