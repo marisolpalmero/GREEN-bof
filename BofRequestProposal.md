@@ -34,12 +34,12 @@ To allow evaluation of your proposal, please include the following items:
    - Draft charter: <TBUpdated> https://datatracker.ietf.org/doc/charter-ietf-EXAMPLE/
    - Relevant Internet-Drafts:
 
-     o Terminology 
-       o Candidate documents: draft-cparsk-eimpact-sustainability-considerations
-     o Power metrics collection and aggregation framework.
-       o Candidate documents: draft-lindblad-tlm-philatelist-00, draft-kll-yang-label-tsdb, draft-cx-opsawg-green-metrics
-     o Use Cases:
-       o Candidate documents: draft-almprs-sustainability-insights
-     o YANG model for power consumption observability and energy saving management.
-       o Candidate documents: draft-li-ivy-power; draft-cwbgp-ivy-energy-saving-management; draft-petra-path-energy-api; 
+     - Terminology 
+       - Candidate documents: draft-cparsk-eimpact-sustainability-considerations
+     - Power metrics collection and aggregation framework.
+       - Candidate documents: draft-lindblad-tlm-philatelist-00, draft-kll-yang-label-tsdb, draft-cx-opsawg-green-metrics
+     - Use Cases:
+       - Candidate documents: draft-almprs-sustainability-insights
+     - YANG model for power consumption observability and energy saving management.
+       - Candidate documents: draft-li-ivy-power; draft-cwbgp-ivy-energy-saving-management; draft-petra-path-energy-api; 
          draft-opsawg-poweff
