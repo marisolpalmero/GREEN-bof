@@ -34,8 +34,16 @@ To allow evaluation of your proposal, please include the following items:
 
 
 ## Agenda
-   - Items, Internet-Drafts, speakers, timing
-   - Or a URL
+The proposed agenda as follows:
+-	The usual administrivia
+-	A chance for the AD to say what he expects from the meeting
+-	An introduction to the topic from someone who knows how nodes and components use power
+-	An overview of the desires and objectives preferably from a network operator
+-	A summary of the sorts of things a working group do
+-	A discussion
+-	The draft charter
+-	Questions for the room
+
 
 ## Links to the mailing list, draft charter if any, relevant Internet-Drafts, etc.
    - Mailing List: https://www.ietf.org/mailman/listinfo/green-bof
