@@ -1,0 +1,84 @@
+To be discussed May 13th 2024
+
+** BoF proposal: deadline May 24th
+get agreement on whether we are okay with the BOF proposal being added to datatracker, acknowledging that we can still change it.  
+  
+
+
+
+** Issues: required more discussion
+
+
+
+* inventory/circular economy aspects?
+ Issue #36
+ Issue #24
+ Issue #23
+
+* Consider RFC6988bis? or review RFC 6988 with acording to use cases and application?
+Issue #34 
+
+* Framework clarification 
+Issue #32
+Issue #25 
+
+* Liason and Dependencies:
+Issue #38 - new section in the charter
+Issue #27 -  more dependency than a chance to influence through liaisons. Industry collaboration is for sure needed.
+Issue #17  - influence through ETSI ++ 
+
+* Out of Scope:
+Issue #26 - Routing protocols and energy aware routing algorithms considering green energy factors are in scope or out of scope
+Issue #20 - icmp in metrics gathering ? and draft proposals
+Issue #19 - Extension to reporting not based YANG models
+Issue #13 - ICMP extension as part of collection /Consumption?
+
+
+
+
+** Issues: with easy fixes
+
+Issue #12
+Terminology: includes draft-cparsk-eimpact-sustainability-considerations
+
+Issue #16 
+include the conceptua content of the work items
+
+Issue #18
+refer to normative citation to understand Energy-aware networking . Suggestion?
+
+Issue #21
+Clarify on Energy-aware and Sustainability
+
+Issue #22
+Clarify first paragraph
+
+Issue #28
+Scope of proposed WG, avoid open-ending
+
+Issue #29
+information for IAB/IESG
+
+Issue #30
+Add a URL to the draft agenda on github
+
+Issue #31
+Add a link to the draft charter on the GitHub page
+
+Issue #32
+clarify on the framework related work items
+
+Issue #33
+understading power/energy metrics; include in the scope how to use and interpret them
+
+
+Issue #35
+include a call out to metrics under terminology under Goals/Scope
+
+
+Issue #37
+RPC ? Acronym to be Defined
+
+
+
+
