@@ -12,7 +12,7 @@ This working group would develop a suite of short-term deliverables aimed at enh
 - Status: WG Forming
 - Responsible AD: Mahesh Jethanandani
 - Chairs: TBD
-- BOF proponents: Marisol Palmero Amador (mpalmero@cisco.com), Qin Wu (bill.wu@huawei.com) 
+- BOF proponents: Emile Stephan (emile.stephan@orange.com),Marisol Palmero (mpalmero@cisco.com), Qin Wu (bill.wu@huawei.com) 
 - Number of people expected to attend: 150
 - Length of session: 2 hours
 - Conflicts (whole Areas and/or WGs)
