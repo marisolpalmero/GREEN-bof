@@ -5,7 +5,7 @@ As the desire to improve energy efficiency gains momentum, network operators inc
 
 This BoF is intended to discuss these objectives and determine whether there is a community of interest to work on these topics within the IETF through a new working group (provisionally called GREEN).
 
-This working group would develop a suite of short-term deliverables aimed at enhancing energy efficiency within networks. Key objectives include standardizing terms and definitions for energy metrics, reporting energy consumption usage at different levels in the network via YANG models, and providing YANG RPCs for better energy management. Additionally, the group could create a framework to describe the effective collection and utilization of these metrics and attributes. The proposed approach is to tackle energy efficiency challenges in a systematic and incremental manner, focusing on practical building blocks that contribute to overarching energy efficiency goals.
+The BoF discussion should identify a suite of short-term deliverables aimed at enhancing energy efficiency within networks. Key objectives include standardizing terms and definitions for energy metrics, reporting energy consumption usage at different levels in the network via YANG models, and providing YANG RPCs for better energy management. Additionally, the group could create a framework to describe the effective collection and utilization of these metrics and attributes. The proposed approach is to tackle energy efficiency challenges in a systematic and incremental manner, focusing on practical building blocks that contribute to overarching energy efficiency goals.
 
 ## Required Details
 

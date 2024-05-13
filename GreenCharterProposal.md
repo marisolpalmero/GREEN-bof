@@ -14,17 +14,16 @@ RFC 6988 provides some requirements and guidelines for monitoring and managing e
 The GREEN working group will examine that work with a view to re-using it where possible, and developing new requirements according to current use cases and applications. More recently, RFC 9547 highlighted the need of further work on metrics, measurements, ability to slow down and sleep devices or part of them, etc. However, there is no consistent view in the industry for terminologies to categorize various type of metrics and measurements.
 In addition, the absence of standardized interfaces for measuring, reporting, and controlling energy consumption across diverse network setups remains a significant challenge. Therefore, new data models, metrics and methods are required to optimize energy efficiency across the network.
 
-As models and metrics are developed and standardized, there might need to be a transition period where some of the equipment in the field does not yet support the 
-new models and metrics. During this period, it will be necessary to map legacy metrics to the new models to enable incremental deployment of the new metrics and
-mechanisms.
+As models and metrics are developed and standardized, there might need to be a transition period where some of the equipment in the field does not yet support the new models and metrics. During this period, it will be necessary to map legacy metrics to the new models to enable incremental deployment of the new metrics and mechanisms.
 
 **Goals and Scope**
 
 The GREEN WG is chartered to concentrate on the following short-term deliverables:
    - Terms and definitions related to energy metrics. Where possible, terms and definitions existing in prior RFCs will be reused.
    - Developing YANG models or augmenting existing models to enable reporting of energy usage through metrics and attributes at component, device, and network levels.
+   - Create a unified document that includes both the energy consumption metrics and their associated YANG data models, along with guidance on how to use, interpret, and handle them.
    - Creating YANG data models that supply metrics for lifecycle assesment, allowing network devices and components to support circular economy strategies.
-   - Providing configuration or YANG RPCs to influence and optimize energy usage in network devices, including energy saving capabilities. 
+   - Providing YANG models to control and optimize energy usage in network devices, including energy saving capabilities. 
    - A framework that will enable the collection, aggregation and consumption for mentioned metrics and attributes developed in the WG.
    - A framework to enable incremental deployment by mapping legacy metrics, sourced from either dynamic or static data, to the new YANG models developed by the WG.
 
