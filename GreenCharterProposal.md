@@ -29,13 +29,14 @@ The GREEN WG is chartered to concentrate on the following short-term deliverable
 
 It may be complex and time-consuming to attempt to address all issues related to power consumption and energy efficiency in one go, but it can be practical to select building-blocks that will contribute to the larger effort. The GREEN WG will combine concrete approaches to develop tools that will serve as a foundation for new energy efficiency strategies.
 
+
 **Out of Scope**
 
 To stay focused, this working group will not address all issues. Some topics may already be covered elsewhere while others may not be mature enough or have unresolved security models. The following topics are not within the scope of the working group:
 
-   - Routing protocols and energy aware routing algorithms considering green energy factors
-   - Benchmarking methodology for power consumption in networking devices (a work item of the BMWG)
-   - Methodologies for understanding the impact of energy efficiency optimization on service quality
+   - Routing protocols and energy aware routing algorithms considering green energy factors.
+   - Benchmarking methodology for power consumption in networking devices (a work item of the BMWG).
+   - Methodologies for understanding the impact of energy efficiency optimization on service quality.
    - Regulatory, compliance, and corporate responsibility related matters
 
 **Work Items**
@@ -62,7 +63,6 @@ The GREEN Energy working group will closely collaborate with:
    - WGs that might have related work or expertise with defining and standardizing metrics and measurement frameworks (e.g., IPPM and BMWG). 
    - Other IRTF Research Groups that provide research inputs and reviews, including PANRG, NMRG.
    - The IAB e-impact program to identify and receive short term metrics related work and to propose longer term problems for further study. 
-   - Industry stakeholders and regulatory bodies to ensure alignment with current and future regulatory frameworks. 
 
 The GREEN WG will liaise with ITU-T and ETSI on benchmarking methodologies for collaboration and consultation,as follows:
 

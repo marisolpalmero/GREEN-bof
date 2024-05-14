@@ -35,15 +35,8 @@ To allow evaluation of your proposal, please include the following items:
 
 
 ## Agenda
-The proposed agenda as follows:
--	The usual administrivia
--	A chance for the AD to say what he expects from the meeting
--	An introduction to the topic from someone who knows how nodes and components use power
--	An overview of the desires and objectives preferably from a network operator
--	A summary of the sorts of things a working group do
--	A discussion
--	The draft charter
--	Questions for the room
+
+   https://github.com/marisolpalmero/GREEN-bof/BoFAgenda.md
 
 
 ## Links to the mailing list, draft charter if any, relevant Internet-Drafts, etc.
@@ -52,11 +45,14 @@ The proposed agenda as follows:
    - Relevant Internet-Drafts:
 
      - Terminology 
-       - Candidate documents: draft-cparsk-eimpact-sustainability-considerations
+       - Candidate documents:[draft-cparsk-eimpact-sustainability-considerations](https://datatracker.ietf.org/doc/draft-cparsk-eimpact-sustainability-considerations/)
      - Power metrics collection and aggregation framework.
-       - Candidate documents: draft-lindblad-tlm-philatelist-00, draft-kll-yang-label-tsdb, draft-cx-opsawg-green-metrics
+       - Candidate documents: [draft-lindblad-tlm-philatelist](https://datatracker.ietf.org/doc/draft-lindblad-tlm-philatelist), [draft-kll-yang-label-tsdb](https://datatracker.ietf.org/doc/draft-kll-yang-label-tsdb), [draft-cx-opsawg-green-metrics](https://datatracker.ietf.org/doc/draft-cx-opsawg-green-metrics)
      - Use Cases:
-       - Candidate documents: draft-almprs-sustainability-insights
+       - Candidate documents: [draft-almprs-sustainability-insights](https://datatracker.ietf.org/doc/draft-almprs-sustainability-insights)
      - YANG model for power consumption observability and energy saving management.
-       - Candidate documents: draft-li-ivy-power; draft-cwbgp-ivy-energy-saving-management; draft-petra-path-energy-api; 
-         draft-opsawg-poweff
+       - Candidate documents: [draft-li-ivy-power](https://datatracker.ietf.org/doc/draft-li-ivy-power); [draft-cwbgp-ivy-energy-saving-management](https://datatracker.ietf.org/doc/draft-cwbgp-ivy-energy-saving-management); [draft-petra-path-energy-api](https://datatracker.ietf.org/doc/draft-cwbgp-ivy-energy-saving-management); [draft-opsawg-poweff](https://datatracker.ietf.org/doc/draft-opsawg-poweff)
+
+
+     
+
