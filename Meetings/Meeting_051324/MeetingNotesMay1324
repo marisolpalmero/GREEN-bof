@@ -1,0 +1,163 @@
+To be discussed May 13th 2024
+
+** BoF proposal: deadline for draft version on May 24th
+get agreement on whether we are okay with the BOF proposal being added to datatracker, acknowledging that we can still change it.  
+  
+BOF proponents required
+BOF participants 
+
+
+BOF request out:
+
++1 Jari
+focus on things where we have consensus
+
+next week call: Monday 17:00 CET 
+
+routing and controlling - 2nd BOF request?
+
+
+
+
+** Issues: required more discussion
+
+
+
+* inventory/circular economy aspects?
+ Issue #36
+ Issue #24
+ Issue #23
+
+parallel effort to work with IVY on the extension of the inventory for circular attributes.
+MUD option.
+extending other work happening in coordination with other WG, example IVY. 
+Not blocking issue for now 
+include it in the effort
+
+* Consider RFC6988bis? or review RFC 6988 with acording to use cases and application?
+Issue #34 
+EMAN
+differences: 
+SNMP vs YANG 
+Collect from all kind of devices
+Legacy devices vs New 
+considering new metrics
+Prepare work for the BOF
+extension of lifecycle assesment metrics. Interaction with IVY and NMOP (Digital Map)
+
+text to include the prosposal, on how the interaction with EMAN is defined. Benoit will help to address this point on the BOF proposal.
+https://www.iana.org/assignments/power-state-sets/power-state-sets.xhtml
+
+
+* Framework clarification 
+Issue #32
+Issue #25 
+
+Better description of framework might be needed. Jan will help to start this text
+Framework might not cover only the use cases under the Sustainability front.
+
+* Liason and Dependencies:
+Issue #38 - new section in the charter.
+Issue #27 -  more dependency than a chance to influence through liaisons. Industry collaboration is for sure needed.
+Issue #17  - influence through ETSI ++ 
+
+not direct work with regulators might be needed, it is region focus (EU, US, ...)
+
+
+
+* Out of Scope:
+Issue #26 - Routing protocols and energy aware routing algorithms considering green energy factors are in scope or out of scope
+Issue #20 - icmp in metrics gathering ? and draft proposals
+Issue #19 - Extension to reporting not based YANG models
+Issue #13 - ICMP extension as part of collection /Consumption?
+
+Clarify on ICMP extension. 
+
+
+* Draft to extend on existing metrics and kpi's
+* Name: GREEN 
+
+
+** Issues: with easy fixes
+
+Issue #12
+Terminology: includes draft-cparsk-eimpact-sustainability-considerations
+
+Issue #16 
+include the conceptua content of the work items
+
+Issue #18
+refer to normative citation to understand Energy-aware networking . Suggestion?
+
+Issue #21
+Clarify on Energy-aware and Sustainability
+
+Issue #22
+Clarify first paragraph
+
+Issue #28
+Scope of proposed WG, avoid open-ending
+
+Issue #29
+information for IAB/IESG
+
+Issue #30
+Add a URL to the draft agenda on github
+
+Issue #31
+Add a link to the draft charter on the GitHub page
+
+Issue #32
+clarify on the framework related work items
+
+Issue #33
+understading power/energy metrics; include in the scope how to use and interpret them
+
+
+Issue #35
+include a call out to metrics under terminology under Goals/Scope
+
+
+Issue #37
+RPC ? Acronym to be Defined
+
+
+Webex chat!
+
+
+Dhruv Dhody • Week of May28th would be first IAB+IESG discussion
+There are 4 issues for BoF request (#28-#31) that are easy enough to address
+
+Mahesh Jethanandani • Suresh, there are three dates that I see in "Important Dates" - 5/24 for initial BoF, 6/7 for the final submission, and 6/14 is the cutoff for AD to approve the BoF.
+
+Jari Arkko • I guess Benoit is saying that if you have tech X to read energy data, then to read from all devices you have to have either (1) X in all devices or (2) something else, Y, in those devices. 
+
+Tony Li • Some of us remember 1973. 🙂
+
+Jari Arkko • +1 to Rob 
+
+Luis M. Contreras (Telefonica) • EMAN was for energy management, but its charter does not cover the metrics part for instance
+
+Benoit • https://www.iana.org/assignments/power-state-sets/power-state-sets.xhtml
+
+Rob Wilton • MUD happened in OPSAWG, and in retrospect, a separate WG might have been a better choice.
+
+Adrian Farrel • It's not a beauty contest! You don't need a long list of proponents
+WHat you need is just a small number who will support very strongly
+
+Suresh Krishnan • +1 Jari
+
+Adrian Farrel • Good advice from Jari
+
+Mahesh Jethanandani • Agree with Jari
+
+Jari Arkko • (And I agree with Adrian's point about the long lists… get a clear thing… names not so important)
+
+Daniel King (LANCS) • Just did a grep of the keyword “energy” and "power" (excluding roll and 6lowpan type activity) on IETF I-D’s posted, the current GREEN proposal seems to be the fifth Renaissance for discussion energy-aware networking @ IETF:  2004 "Prolonging Network Lifetime" (PNL), 2010 "Energy Management Framework" (EMAN), 2012 "Power-Aware Networks " (PANET), 2013 "GREEN NET. I agree it would be a good idea understand how this proposal may differ in terms of capability, technology and use cases. Along with several MIBs having been published - some as RFCs. 
+
+Luis M. Contreras (Telefonica) • Complementing Dan's comment, in EMAN there is an RFC for a framework. How different is that from the idea of framework being discussed here?
+
+Tony Li • Need to drop
+
+
+
