@@ -1,30 +1,31 @@
 # Name: Getting Ready for Energy-Efficient Networking (GREEN)
 ## Description 
 
-As the desire to improve energy efficiency gains momentum, network operators increasingly focus on understanding energy consumption by different links, nodes, and devices within their networks. Energy-aware networking encompasses deploying and managing network infrastructures to reduce energy consumption, optimize energy efficiency, and minimize environmental impact. This will involve technologies to monitor energy consumption, evaluate the effectiveness of energy saving polices, use control strategies to improve energy efficiency, and foster sustainability in network operations.
+As the desire to improve energy efficiency gains momentum, network operators increasingly focus on understanding energy consumption by different links, nodes, and devices within their networks. Energy-aware networking involves deploying and managing network infrastructures with the dual goals of optimizing energy use and minimizing environmental impact. This will involve technologies to monitor energy consumption, evaluate the effectiveness of energy saving polices, use control strategies to improve energy efficiency, and foster sustainability in network operations.
 
 This BoF is intended to discuss these objectives and determine whether there is a community of interest to work on these topics within the IETF through a new working group (provisionally called GREEN).
 
-The BoF discussion should identify a suite of short-term deliverables aimed at enhancing energy efficiency within networks. Key objectives include standardizing terms and definitions for energy metrics, reporting energy consumption usage at different levels in the network via YANG models, and providing YANG RPCs for better energy management. Additionally, the group could create a framework to describe the effective collection and utilization of these metrics and attributes. The proposed approach is to tackle energy efficiency challenges in a systematic and incremental manner, focusing on practical building blocks that contribute to overarching energy efficiency goals.
+The BoF discussion should identify a suite of short-term deliverables aimed at enhancing energy efficiency within networks. Key objectives include standardizing terms and definitions for energy metrics, and YANG models for reporting energy consumption usage and performing energy management. Additionally, the group could create a framework to describe the effective collection and utilization of these metrics and attributes. The proposed approach is to tackle energy efficiency challenges in a systematic and incremental manner, focusing on practical building blocks that contribute to overarching energy efficiency goals.
 
 ## Required Details
 
 - Status: WG Forming
 - Responsible AD: Mahesh Jethanandani
 - Chairs: TBD
-- BOF proponents: Emile Stephan (emile.stephan@orange.com),Marisol Palmero (mpalmero@cisco.com), Qin Wu (bill.wu@huawei.com) 
+- BOF proponents: Emile Stephan(emile.stephan@orange.com), Marisol Palmero(mpalmero@cisco.com), Qin Wu(bill.wu@huawei.com), Tony Li(tony.li@tony.li)
 - Number of people expected to attend: 150
 - Length of session: 2 hours
 - Conflicts (whole Areas and/or WGs)
    - Chair Conflicts: TBD
    - Technology Overlap: OPS Area, RTGWG, LSR
-   - Key Participant Conflict: TBD
+   - Key Participant Conflict: MPLS, TVR
 
 ## Information for IAB/IESG
 To allow evaluation of your proposal, please include the following items:
 
 - Any protocols or practices that already exist in this space:
-  - See the work of the closed EMAN working group.
+  - See the work of the closed EMAN working group. 
+  - Proposals to LSR for IGP enhancements for energy-efficient path computation.
 - Which (if any) modifications to existing protocols or practices are required:
   - Approaches are likely to use Netconf/Restconf and YANG.
 - Which (if any) entirely new protocols or practices are required:

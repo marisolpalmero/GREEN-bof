@@ -2,13 +2,13 @@ Charter proposal for Green Ready Energy Efficiency Network (GREEN)
 
 **Background and Motivation**
 
-Energy efficiency gains for communication systems are highly sought after, for environmental, business, and technical reasons. Network operators increasingly focus on understanding energy consumption usage across their networks. This influences of course also standards organizations in the information technology field, e.g., work on energy efficiency metrics and various technology improvements.
+Energy efficiency gains for communication systems are highly sought after, for environmental, business, and technical reasons. Network operators increasingly focus on understanding energy consumption across their networks. This influences of course also standards organizations in the information technology field, e.g., work on energy efficiency metrics and various technology improvements.
 
-As the imperative to improve energy efficiency gains momentum (e.g., ITU-T SG5 has been tasked with development of energy efficiency metrics, ETSI TCEE works on environmental efficiency related standards covering server, data storage, network equipments), network operators increasingly focus on understanding energy consumption usage by links,nodes and devices within their networks. 
+As the imperative to improve energy efficiency gains momentum, network operators increasingly focus on understanding energy consumption by links, nodes and devices/components within their networks. 
 
-Energy-aware networking encompasses deploying and managing network infrastructures to reduce energy consumption, and minimize environmental impact. This will involve technologies to monitor energy consumption, evaluate the effectiveness of energy saving polices, use control strategies to improve energy efficiency, and foster sustainability in network operations.
+Energy-aware networking involves deploying and managing network infrastructure with the dual goals of optimizing energy use and minimizing environmental impact. This includes adopting technologies to monitor and effectively manage energy consumption, evaluating the environmental benefits of energy-saving policies beyond just reducing consumption, implementing control strategies that enhance overall energy efficiency, and promoting sustainable practices in network operations. It also recognizes that, in some cases, strategic increases in energy use from sustainable sources can lead to long-term environmental improvements.
 
-Improving operational energy efficiency, as part of global sustainability efforts, may also necessitate enhancing inventory attributes, thereby contributing to a more sustainable lifecycle for network devices. It should also be about actually putting in place technology that improves our energy efficiency and sustainability.
+Improving operational energy efficiency, as part of global sustainability efforts, may also necessitate enhancing inventory attributes, thereby contributing to a more sustainable lifecycle for network devices.
 
 RFC 6988 provides some requirements and guidelines for monitoring and managing energy usage in network devices. 
 The GREEN working group will examine that work with a view to re-using it where possible, and developing new requirements according to current use cases and applications. More recently, RFC 9547 highlighted the need of further work on metrics, measurements, ability to slow down and sleep devices or part of them, etc. However, there is no consistent view in the industry for terminologies to categorize various type of metrics and measurements.
@@ -31,7 +31,7 @@ It may be complex and time-consuming to attempt to address all issues related to
 
 **Out of Scope**
 
-To stay focused, this working group will not address all issues. And some topics may already be covered elsewhere while others may not be mature enough or have unresolved security models. In any case, the following topics are not within the scope of the working group:
+To stay focused, this working group will not address all issues. Some topics may already be covered elsewhere while others may not be mature enough or have unresolved security models. The following topics are not within the scope of the working group:
 
    - Routing protocols and energy aware routing algorithms considering green energy factors
    - Benchmarking methodology for power consumption in networking devices (a work item of the BMWG)
@@ -39,6 +39,9 @@ To stay focused, this working group will not address all issues. And some topics
    - Regulatory, compliance, and corporate responsibility related matters
 
 **Work Items**
+
+Use Cases:
+   - Candidate documents: draft-almprs-sustainability-insights
 
 Terminology 
    - Candidate documents: draft-cparsk-eimpact-sustainability-considerations
@@ -49,15 +52,13 @@ YANG model for energy consumption observability and energy saving management.
 Energy metrics collection and aggregation framework.
    - Candidate documents: draft-lindblad-tlm-philatelist, draft-kll-yang-label-tsdb, draft-cx-opsawg-green-metrics
 
-Use Cases:
-   - Candidate documents: draft-almprs-sustainability-insights
 
 **Dependencies and Liaisons**
 
 The GREEN Energy working group will closely collaborate with:
 
    - Other IETF Working Groups that address topics related to power consumption observability and energy efficiency
-     management, such as IVY, OPSAWG, NETMOD WGs.
+     management, such as IVY, OPSAWG, and NETMOD.
    - WGs that might have related work or expertise with defining and standardizing metrics and measurement frameworks (e.g., IPPM and BMWG). 
    - Other IRTF Research Groups that provide research inputs and reviews, including PANRG, NMRG.
    - The IAB e-impact program to identify and receive short term metrics related work and to propose longer term problems for further study. 
