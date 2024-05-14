@@ -1,4 +1,4 @@
-Charter proposal for Green Ready Energy Efficiency Network (GREEN)
+Charter proposal for Get Ready Energy Efficiency Network (GREEN)
 
 **Background and Motivation**
 
