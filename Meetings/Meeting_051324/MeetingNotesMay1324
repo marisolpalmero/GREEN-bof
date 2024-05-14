@@ -1,4 +1,39 @@
-To be discussed May 13th 2024
+** Webex Recording: **
+
+Webex meeting recording: Green Metrics WF BOF Request
+Password: Ntka2jbb
+Recording Link: https://cisco.webex.com/cisco/ldr.php?RCID=983f5752d9df8d2b4707005113e7be57 
+
+
+** Meeting Notes: ** 
+
+Marisol Palmero Amador
+Adrian Farrel
+Qin Wu
+Benoit Claise
+Colby Barth
+Gen Chen
+Daniel King LANCS
+Dhruv Dhody
+emile.stephan@orange.com
+Giuseppe Fioccola
+Gonzalo Salgueiro
+Hesham ElBakoury
+Jari Arkko
+Jan Lindblad
+Kent Watsen
+Luis M. Contreras Telefonica
+Michael Welzl
+Mahesh Jethanandani
+Oscar Gonzaled De Dios
+Per Andersson
+Robert Raszuk
+Rob Wilton
+Snezana Mitrovic
+Suresh Krishnan
+Tony Li
+
+Marisol introduced the ageda  to be discussed May 13th 2024
 
 ** BoF proposal: deadline for draft version on May 24th
 get agreement on whether we are okay with the BOF proposal being added to datatracker, acknowledging that we can still change it.  
@@ -6,48 +41,34 @@ get agreement on whether we are okay with the BOF proposal being added to datatr
 BOF proponents required
 BOF participants 
 
+Topics Discussed:
 
-BOF request out:
+The BOF proposal shall focus on things where we have consensus, remove the ambiguis points
+There are some issues that can be closed quickly but some need more discussion (list below) 
 
-+1 Jari
-focus on things where we have consensus
+Benoit referenced the EMAN (Issue 34) work that we need to distinguish from (write down what is new in BOF proposal)  - referenced   RFC6988bis? or review RFC 6988  the discsussion will take place on the mailing list but some feedback provided that difference may be: 
+ YANG modeling, new ITU metrics, devices that are not EMAN enabled, component/device/network level/lifecycle metrics. 
+It is not sufficient to have just metrics but to be able to add the KPI to objects in context of the digital map, based on which actions may be taken. trics to the link, based on which we need to take some action; 
 
-next week call: Monday 17:00 CET 
+The BOF text to include the prosposal, on how the interaction with EMAN is defined. Benoit will help to address this point on the BOF proposal (based on mailing list discussion)
+https://www.iana.org/assignments/power-state-sets/power-state-sets.xhtml
 
-routing and controlling - 2nd BOF request?
+Oscar suggested in this group we should aim to understand the metrics, how to characterize the device. 
 
+Discussed further if inventory overlap with IVY WG scope; considered extension to other working groups, not a blocker nor need decision now 
 
+Scope has to be clerly defind, including what is not in scope, referenced the MUD and OPSA WG; Suresh suggested that Regulators shall be out of scope. 
 
+Framework mention twice in the text - need to be refined to be clear. 
 
-** Issues: required more discussion
+Submit the proposal sooner rather then later - need to address EMAN and framework point and it is somewhat good to be submitted. 2 weeks submitting draft and final proposal.
 
-
+** Issues: required more discussion ** 
 
 * inventory/circular economy aspects?
  Issue #36
  Issue #24
  Issue #23
-
-parallel effort to work with IVY on the extension of the inventory for circular attributes.
-MUD option.
-extending other work happening in coordination with other WG, example IVY. 
-Not blocking issue for now 
-include it in the effort
-
-* Consider RFC6988bis? or review RFC 6988 with acording to use cases and application?
-Issue #34 
-EMAN
-differences: 
-SNMP vs YANG 
-Collect from all kind of devices
-Legacy devices vs New 
-considering new metrics
-Prepare work for the BOF
-extension of lifecycle assesment metrics. Interaction with IVY and NMOP (Digital Map)
-
-text to include the prosposal, on how the interaction with EMAN is defined. Benoit will help to address this point on the BOF proposal.
-https://www.iana.org/assignments/power-state-sets/power-state-sets.xhtml
-
 
 * Framework clarification 
 Issue #32
@@ -63,63 +84,27 @@ Issue #17  - influence through ETSI ++
 
 not direct work with regulators might be needed, it is region focus (EU, US, ...)
 
-
-
 * Out of Scope:
 Issue #26 - Routing protocols and energy aware routing algorithms considering green energy factors are in scope or out of scope
 Issue #20 - icmp in metrics gathering ? and draft proposals
 Issue #19 - Extension to reporting not based YANG models
 Issue #13 - ICMP extension as part of collection /Consumption?
 
-Clarify on ICMP extension. 
+** Issues: with easy fixes ** 
 
-
-* Draft to extend on existing metrics and kpi's
-* Name: GREEN 
-
-
-** Issues: with easy fixes
-
-Issue #12
-Terminology: includes draft-cparsk-eimpact-sustainability-considerations
-
-Issue #16 
-include the conceptua content of the work items
-
-Issue #18
-refer to normative citation to understand Energy-aware networking . Suggestion?
-
-Issue #21
-Clarify on Energy-aware and Sustainability
-
-Issue #22
-Clarify first paragraph
-
-Issue #28
-Scope of proposed WG, avoid open-ending
-
-Issue #29
-information for IAB/IESG
-
-Issue #30
-Add a URL to the draft agenda on github
-
-Issue #31
-Add a link to the draft charter on the GitHub page
-
-Issue #32
-clarify on the framework related work items
-
-Issue #33
-understading power/energy metrics; include in the scope how to use and interpret them
-
-
-Issue #35
-include a call out to metrics under terminology under Goals/Scope
-
-
-Issue #37
-RPC ? Acronym to be Defined
+Issue #12 - Terminology: includes draft-cparsk-eimpact-sustainability-considerations
+Issue #16 -  include the conceptua content of the work items
+Issue #18 - refer to normative citation to understand Energy-aware networking . Suggestion?
+Issue #21 - Clarify on Energy-aware and Sustainability
+Issue #22 - Clarify first paragraph
+Issue #28 - Scope of proposed WG, avoid open-ending
+Issue #29 - information for IAB/IESG
+Issue #30 - Add a URL to the draft agenda on github
+Issue #31 - Add a link to the draft charter on the GitHub page
+Issue #32 - clarify on the framework related work items
+Issue #33 - understading power/energy metrics; include in the scope how to use and interpret them
+Issue #35 - include a call out to metrics under terminology under Goals/Scope
+Issue #37 - RPC ? Acronym to be Defined
 
 
 Webex chat!
