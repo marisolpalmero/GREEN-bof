@@ -38,7 +38,6 @@ To allow evaluation of your proposal, please include the following items:
 
    [BoF Agenda Proposal](https://github.com/marisolpalmero/GREEN-bof/blob/main/BoFAgenda.md)
 
-
 ## Links to the mailing list, draft charter if any, relevant Internet-Drafts, etc.
    - Mailing List: https://www.ietf.org/mailman/listinfo/green-bof
    - Draft charter: <TBUpdated> https://datatracker.ietf.org/doc/charter-ietf-EXAMPLE/

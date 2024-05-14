@@ -14,8 +14,8 @@ BoF proposed agenda:
 
 Speakers:
 
-Toni Li is vounteer to present(Issue #53):
+Tony Li is vounteer to present(Issue #53):
 - "An introduction to the topic from someone who knows how components use power"
 - "A centralized approach to network energy management" 
-Juniper Candidate to present (Toni Li)
+Juniper Candidate to present (Tony Li)
 - "A distributed approach to network energy management"
