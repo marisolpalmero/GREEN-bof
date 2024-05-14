@@ -25,9 +25,9 @@ To allow evaluation of your proposal, please include the following items:
 
 - Any protocols or practices that already exist in this space:
   - See the work of the closed EMAN working group. 
-  - Proposals to LSR for IGP enhancements for energy-efficient path computation.
 - Which (if any) modifications to existing protocols or practices are required:
   - Approaches are likely to use Netconf/Restconf and YANG.
+  - Proposals to LSR for IGP enhancements for energy-efficient path computation.
 - Which (if any) entirely new protocols or practices are required:
   - None identified so far.
 - Open source projects (if any) implementing this work:
