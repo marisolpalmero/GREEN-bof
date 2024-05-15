@@ -1,7 +1,7 @@
 # Name: Getting Ready for Energy-Efficient Networking (GREEN)
 ## Description 
 
-As the desire to improve energy efficiency gains momentum, network operators increasingly focus on understanding energy consumption by different links, nodes, and devices within their networks. Energy-aware networking involves deploying and managing network infrastructures with the dual goals of optimizing energy use and minimizing environmental impact. This will involve technologies to monitor energy consumption, evaluate the effectiveness of energy saving polices, use control strategies to improve energy efficiency, and foster sustainability in network operations.
+As the desire to improve energy efficiency gains momentum, network operators increasingly focus on understanding energy consumption by different links, nodes, and devices within their networks. Energy-efficiency networking management involves deploying and managing network infrastructures with the dual goals of optimizing energy use and minimizing environmental impact. This will involve technologies to monitor energy consumption, evaluate the effectiveness of energy saving polices, use control strategies to improve energy efficiency, and foster sustainability in network operations.
 
 This BoF is intended to discuss these objectives and determine whether there is a community of interest to work on these topics within the IETF through a new working group (provisionally called GREEN).
 
