@@ -42,8 +42,8 @@ To allow evaluation of your proposal, please include the following items:
 
 ## Links to the mailing list, draft charter if any, relevant Internet-Drafts, etc.
    - Mailing List: https://www.ietf.org/mailman/listinfo/green-bof
-   - Draft charter: [TBUpdated](https://datatracker.ietf.org/doc/charter-ietf-EXAMPLE/),
-                    [TBUpdated](https://github.com/marisolpalmero/GREEN-bof/blob/main/GreenCharterProposal.md)
+   - Draft charter: [Datatracker Link](https://datatracker.ietf.org/doc/charter-ietf-EXAMPLE/),
+                    [Github Charter Proposal](https://github.com/marisolpalmero/GREEN-bof/blob/main/GreenCharterProposal.md)
    - Relevant Internet-Drafts:
 
      - Terminology 
