@@ -24,7 +24,7 @@ The BoF discussion should identify a suite of short-term deliverables aimed at e
 To allow evaluation of your proposal, please include the following items:
 
 - Any protocols or practices that already exist in this space:
-  - See the work of the closed EMAN working group. 
+  - See the new work of IVY working group on energy management and the existing work of the closed EMAN working group. 
 - Which (if any) modifications to existing protocols or practices are required:
   - Approaches are likely to use Netconf/Restconf and YANG.
   - Proposals to LSR for IGP enhancements for energy-efficient path computation.
