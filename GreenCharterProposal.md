@@ -39,7 +39,7 @@ Adopting a longer-term approach to global sustainability efforts requires enhanc
 **Work Items**
 
 Use Cases
-   - Candidate documents: draft-almprs-sustainability-insights
+   - Candidate documents: draft-almprs-sustainability-insights   
 
 Terminology 
    - Candidate documents: draft-cparsk-eimpact-sustainability-considerations
@@ -49,6 +49,8 @@ YANG model(s) for energy consumption observability and energy saving management
 
 Energy metrics collection and aggregation framework
    - Candidate documents: draft-lindblad-tlm-philatelist, draft-kll-yang-label-tsdb, draft-cx-opsawg-green-metrics
+
+Some of these items (e.g., Use Cases) will be adopted as support Informational Internet-Drafts, not necessarily for publication as RFCs.
 
 **Dependencies and Liaisons**
 
