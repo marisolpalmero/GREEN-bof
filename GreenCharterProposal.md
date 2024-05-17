@@ -69,7 +69,7 @@ The GREEN Working Groups will liaise with other SDOs on benchmarking methodologi
 **Milestones:** 
 
    - Develop and agree upon a standardized set of terminologies and definitions related to energy efficiency and sustainability in networking (Q4 2024).
-   - Publish YANG models for operational energy efficiency related metrics. While metrics are valuable, they should be leveraged to guide and inspire changes in operational practices to improve energy efficiency and sustainability practices. (Q2 2025)
-   - Propose and ratify an architectural framework for energy consumption reporting (Q3 2025).
+   - Publish YANG models for operational energy efficiency related metrics. While metrics are valuable, they should be leveraged to guide and inspire changes 
+     in operational practices to improve energy efficiency and sustainability practices. (Q2 2025)
    - Develop a framework for incremental deployment of an energy-aware tools management (Q3 2025).
    - Demonstrate initial implementations and use cases of the YANG models in network devices (Q4 2025). 
