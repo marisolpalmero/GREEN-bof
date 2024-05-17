@@ -39,22 +39,22 @@ To stay focused, this working group will not address all issues. Some topics may
 
 Candidate documents:
 
-Use Cases:
-   - Sustainability Insights (draft-almprs-sustainability-insights) provides use cases for applying sustainability metrics, such as optimizing power consumption in WiFi networks, evaluating the environmental impact of hardware upgrades, and incorporating recycling efforts, to improve the overall environmental performance of network operations​.
+*Use Cases*
+   - **Sustainability Insights (draft-almprs-sustainability-insights)** provides use cases for applying sustainability metrics, such as optimizing power consumption in WiFi networks, evaluating the environmental impact of hardware upgrades, and incorporating recycling efforts, to improve the overall environmental performance of network operations​.
 
-Terminology 
-   - Sustainability Considerations for Internetworking (draft-cparsk-eimpact-sustainability-considerations) advocates for embedding sustainability considerations into the design and evaluation of Internet technologies, offering definitions, tradeoffs, and guidance for designers while recommending the inclusion of a Sustainability Considerations section in technical documentation.
+*Terminology*
+   - **Sustainability Considerations for Internetworking (draft-cparsk-eimpact-sustainability-considerations)** advocates for embedding sustainability considerations into the design and evaluation of Internet technologies, offering definitions, tradeoffs, and guidance for designers while recommending the inclusion of a Sustainability Considerations section in technical documentation.
 
-YANG model for energy consumption observability and energy saving management
-    - A YANG model for Power Management(draft-li-ivy-power) proposes the implementation of a YANG model for power management in network elements to optimize power efficiency and address sustainability concerns by enabling automated power-saving modes based on fluctuating traffic levels.
-    - A YANG Data Model for Energy Saving Management (draft-cwbgp-ivy-energy-saving-management) document defines a YANG module for power and energy management on both both device and network levels.
-    - Path Energy Traffic Ratio API - PETRA  (draft-petra-path-energy-api) describes an API to query a network regarding its Energy Traffic Ratio for a given path.
-    - Power and Energy Efficiency (draft-opsawg-poweff) document presents a device YANG "dashboard" data model, facilitating the reporting of power measurement and control functions offered by devices, regardless of their support for YANG-based management interfaces, through a YANG instance data file accessible via onboard web servers or other hosting methods.
+*YANG model for energy consumption observability and energy saving management*
+   - **Philatelist, YANG-based Network Controller collection and aggregation framework integrating Telemetry data and Time Series Databases (draft-lindblad-tlm-philatelist)**  advocates for a standardized, extensible framework leveraging YANG, metadata, and Time Series Databases to collect and aggregate timestamped telemetry data across domains, aiming to improve data quality, transparency, and comparability, primarily implemented in the Network Controller layer but sourced from various Network Elements and related systems.
+   - **Mapping YANG Data to Label-Set Time Series (draft-kll-yang-label-tsdb)** proposes a standardized method for storing YANG-modeled configuration and state data in Time Series Databases (TSDBs), detailing procedures for translating YANG representations to align with TSDB label-centric structures and vice versa, ensuring efficient storage and querying capabilities.
+   - **Green Networking Metrics (draft-cx-green-metrics)** highlights the necessity for network instrumentation to evaluate power consumption, energy efficiency, and carbon footprint, proposing a set of metrics to optimize a network's energy efficiency and environmental impact.
 
-Energy metrics collection and aggregation framework.
-   - Philatelist, YANG-based Network Controller collection and aggregation framework integrating Telemetry data and Time Series Databases (draft-lindblad-tlm-philatelist) advocates for a standardized, extensible framework leveraging YANG, metadata, and Time Series Databases to collect and aggregate timestamped telemetry data across domains, aiming to improve data quality, transparency, and comparability, primarily implemented in the Network Controller layer but sourced from various Network Elements and related systems.
-   - Mapping YANG Data to Label-Set Time Series (draft-kll-yang-label-tsdb) proposes a standardized method for storing YANG-modeled configuration and state data in Time Series Databases (TSDBs), detailing procedures for translating YANG representations to align with TSDB label-centric structures and vice versa, ensuring efficient storage and querying capabilities.
-   - Green Networking Metrics (draft-cx-green-metrics) highlights the necessity for network instrumentation to evaluate power consumption, energy efficiency, and carbon footprint, proposing a set of metrics to optimize a network's energy efficiency and environmental impact.
+   
+*Energy metrics collection and aggregation framework*
+   - **Philatelist, YANG-based Network Controller collection and aggregation framework integrating Telemetry data and Time Series Databases (draft-lindblad-tlm-philatelist)** advocates for a standardized, extensible framework leveraging YANG, metadata, and Time Series Databases to collect and aggregate timestamped telemetry data across domains, aiming to improve data quality, transparency, and comparability, primarily implemented in the Network Controller layer but sourced from various Network Elements and related systems.
+   - **Mapping YANG Data to Label-Set Time Series (draft-kll-yang-label-tsdb)** proposes a standardized method for storing YANG-modeled configuration and state data in Time Series Databases (TSDBs), detailing procedures for translating YANG representations to align with TSDB label-centric structures and vice versa, ensuring efficient storage and querying capabilities.
+   - **Green Networking Metrics (draft-cx-green-metrics)** highlights the necessity for network instrumentation to evaluate power consumption, energy efficiency, and carbon footprint, proposing a set of metrics to optimize a network's energy efficiency and environmental impact.
 
 
 **Dependencies and Liaisons**
