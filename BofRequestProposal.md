@@ -49,7 +49,7 @@ To allow evaluation of your proposal, please include the following items:
      - Terminology 
        - Candidate documents:[draft-cparsk-eimpact-sustainability-considerations](https://datatracker.ietf.org/doc/draft-cparsk-eimpact-sustainability-considerations/)
      - Power metrics collection and aggregation framework.
-       - Candidate documents: [draft-lindblad-tlm-philatelist](https://datatracker.ietf.org/doc/draft-lindblad-tlm-philatelist), [draft-kll-yang-label-tsdb](https://datatracker.ietf.org/doc/draft-kll-yang-label-tsdb), [draft-cx-opsawg-green-metrics](https://datatracker.ietf.org/doc/draft-cx-opsawg-green-metrics)
+       - Candidate documents: [draft-lindblad-tlm-philatelist](https://datatracker.ietf.org/doc/draft-lindblad-tlm-philatelist), [draft-kll-yang-label-tsdb](https://datatracker.ietf.org/doc/draft-kll-yang-label-tsdb), [draft-cx-opsawg-green-metrics](https://datatracker.ietf.org/doc/draft-cx-opsawg-green-metrics),[draft-pignataro-eimpact-icmp](https://datatracker.ietf.org/doc/draft-pignataro-eimpact-icmp/)
      - Use Cases:
        - Candidate documents: [draft-almprs-sustainability-insights](https://datatracker.ietf.org/doc/draft-almprs-sustainability-insights)
      - YANG model for power consumption observability and energy saving management.
