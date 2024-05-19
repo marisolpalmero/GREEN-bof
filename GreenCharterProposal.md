@@ -38,19 +38,16 @@ Adopting a longer-term approach to global sustainability efforts requires enhanc
 
 **Work Items**
 
-Use Cases
-   - Candidate documents: draft-almprs-sustainability-insights   
+The GREEN Working Group will focus on the following program of work:
+- An informational document defining Use cases for identifying energy efficiency metrics, methods related to energy consumption of the networking devices, to optimize energy efficiency across the network. The 
+  document will describe 2-3 scenarios and for each of them, it will identify key points needed for interoperability.
 
-Terminology 
-   - Candidate documents: draft-cparsk-eimpact-sustainability-considerations
+- An informational Architecture document that Defines common terminology and metric definitions,categorizes various type of metrics and measurements at component level,device level and network level, defines a set 
+  of architectural components for energy efficiency network management.
 
-YANG model(s) for energy consumption observability and energy saving management
-   - Candidate documents: draft-li-ivy-power, draft-cwbgp-ivy-energy-saving-management, draft-petra-path-energy-api, draft-opsawg-poweff
+- A proposed standard document that defines YANG data model for energy efficiency network lifecycle management including energy usage monitoring, energy saving capability control and energy usage optimization
 
-Energy metrics collection and aggregation framework
-   - Candidate documents: draft-lindblad-tlm-philatelist, draft-kll-yang-label-tsdb, draft-cx-opsawg-green-metrics
-
-Some of these items (e.g., Use Cases) will be adopted as support Informational Internet-Drafts, not necessarily for publication as RFCs.
+- An informational document defining Framework for Energy metrics collection and aggregation to support incremental deployment of new energy efficiency metrics. 
 
 **Dependencies and Liaisons**
 
