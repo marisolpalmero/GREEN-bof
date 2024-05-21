@@ -1,0 +1,18 @@
+Meeting Agenda
+1. Overall Status Update
+2. BOF Proposal status update
+   o Agenda items request
+   o The role of proponent
+3. Green Charter status update
+   o YANG model work will be based on extensions to the inventory where possible in collaboration with in collaboration with IVY.
+      * is Capability of devices long term goal or short term goal?
+   o Necessity of Framework in the Charter
+   o EMAN Reference: RFC6988
+      1. What are the use cases,  Have these use cases changed since EMAN?
+      2. Does EMAN give us the necessary attributes for reporting dynamic and potential energy use from devices and components?
+      3. How much effort is needed to convert EMAN work into YANG?
+   o Review Out of scope statements. Issues #6 (interdomain, e-impact analysis) , #26(routing protocol) & #27 (regulation)
+   o Coreconf and YANG-CBor from Alexander
+   o Modularity or circularity use case from Emile
+   o Are Charter ready to be move to Datatracker?
+4. Wrapup

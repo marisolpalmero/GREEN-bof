@@ -1,0 +1,111 @@
+GREEN BoF Preparation Meeting 20th May 2024 17.00 CET
+
+
+Meeting Agenda
+1. Overall Status Update
+2. BOF Proposal status update
+   o Agenda items request
+   o The role of proponent
+3. Green Charter status update
+   o YANG model work will be based on extensions to the inventory where possible in collaboration with in collaboration with IVY.
+      * is Capability of devices long term goal or short term goal?
+   o Necessity of Framework in the Charter
+   o EMAN Reference: RFC6988
+      1. What are the use cases,  Have these use cases changed since EMAN?
+      2. Does EMAN give us the necessary attributes for reporting dynamic and potential energy use from devices and components?
+      3. How much effort is needed to convert EMAN work into YANG?
+   o Review Out of scope statements. Issues #6 (interdomain, e-impact analysis) , #26(routing protocol) & #27 (regulation)
+   o Coreconf and YANG-CBor from Alexander
+   o Modularity or circularity use case from Emile
+   o Are Charter ready to be move to Datatracker?
+4. Wrapup
+
+
+Meeting recording started 17.01
+Qin Wu chairing
+
+No agenda bashing
+
+1.
+
+BoF request has been submitted to meet deadline and get timeslot
+We can continue to update our BoF proposal
+7 issues have been raised. All resolved.
+
+60 issues opened against charter
+46 have been closed
+14 remain
+Main discussion points concern scope
+
+2.
+
+Draft BoF agenda
+Everyone seemed to be happy with the proposed agenda
+
+Clarify the role of the BoF proponents:
+- We already have 4 proponents: it's enough
+- Be able to answer AD questions and get through IESG review
+
+Mahesh: Timing presentations vs discussions
+Adrian: 60 minutes presentations, 60 minutes discussion
+Suresh: Sounds about right
+
+3.
+
+Framework
+Tony: What needs to be standardised in a Framework?
+Qin: We need to describe incremental migration
+Jan: Tradeshows have shown 100s of demos on how to collect data and display it. But no one knows what the graphs represent.
+     Need to have common understanding of what the informaiton is.
+     The way we collect data is a second thing to standardise.
+Qin: So framework would contain whole picture and provide guidance on how to make things work together.
+
+EMAN
+Qin: May be able to reuse EMAN requirements, but may need new requirements. Should this be a bis?
+     Benoit has done some work to help us compare with EMAN.
+     EMAN is about 10 years old, but with little deployment.
+     EMAN is also about control of power state, but does not consider (e.g.) traffic-related attributes.
+Suresh: We can continue to work on this tpoic
+Adrian: Agree: we don't have to get this right now. But the IESG will ask this question.
+        So our homework is to reread the paragraph in the charter wrt EMAN and wee how we can make it clearer.
+Mahesh: Agree with Adrian. A question I would ask is "How is this different from EMAN?"
+        So you need to answer what is different, how are you building on EMAN.
+
+Scope:
+Qin: Issue 26 Routing Protocol should be out of scope
+Adrian: Agree. But the challenge for us is that we want to collect the right information that could be used by a routing protocol
+        or by any other applicaiton, but we don't define how the information is used.
+Qin: Issue 27. Discussion with regulators. Not something we are set up to do.
+Suresh: Not very helpful to list all of the working groups and their overlap.
+Luis: Things that are out of scope today, may become in scope in the future.
+
+Return to discussion of IVY
+Qin: Maybe IVY more focussed on static capabilities. GREEN, handles dynamic metrics.
+Tony: We should be based on the existing hardware YANG model, not IVY
+Diego: Also think about NMOP.
+Qin: Maybe we add NMOP to the charter
+Oscar: There may be many uses of the metrics we define. Including "green traffic engineering".
+       Maybe a future work effort would pick up our metrics and do green traffic engineering.
+       So could explicitly mark green traffic engineering as out of scope.
+       "Potential collaboration or follow-up could be in TEAS"
+Mahesh: What you want to discuss what is in scope and what is out of scope. Don't discuss where the work could be done.
+Suresh: Keep track of a major issue: Should this build on inventory or device model?
+
+Modulatiry and Circularity
+Emile: The question between short term and long term capabilities needs addressing
+       The short term capabilities need to be urgently specified
+       With regard to modularity, I have written a draft to say that existing devices can be updated with components that
+         have eco design, and don't need any other upgrade. To do this we need to list the eco components we install in
+         legacy devices. We need to be able to show that we did the update.
+Qin: Maybe your assessment of short/long term capablities is more related to IVY
+
+Charter move to Datatracker
+Qin: Mahesh, what's your opinion?
+Suresh: Keep the charter out of the Datatracker for now
+Adrian: Agree. This belongs to the AD
+Mahesh: Yes. Just keep it referenced from the BoF proposal
+
+4. Wrap up
+Mahesh: Next Monday is Memorial Day, so US will be off.
+Suresh: I don't think we need another meeting as we have the BoF proposal is mainly done.
+All: Maybe meet on Wednesday next week if Qin and Marisol think it is necessary.
