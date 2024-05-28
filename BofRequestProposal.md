@@ -29,7 +29,7 @@ To allow evaluation of your proposal, please include the following items:
   - [See IAB Environment Impact Workshop on Mertrics](https://datatracker.ietf.org/meeting/interim-2022-eimpactws-03/materials/slides-interim-2022-eimpactws-03-sessa-iab-e-impact-ws-session-3-metrics-01.pdf) 
 - Which (if any) modifications to existing protocols or practices are required:
   - Approaches are likely to use Netconf/Restconf and YANG.
-  - Proposals to LSR for IGP enhancements for energy-efficient path computation.
+  - Enhancements to IGPs and PCEP for energy-efficient path computation (not in the OPS WG scope).
 - Which (if any) entirely new protocols or practices are required:
   - None identified so far.
 - Open source projects (if any) implementing this work:
