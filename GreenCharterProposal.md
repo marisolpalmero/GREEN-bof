@@ -22,7 +22,7 @@ The GREEN WG is chartered to concentrate on the following short-term deliverable
    - Providing YANG models to control and optimize energy usage in network devices, including energy saving capabilities. 
    - Developing or selecting a framework to collect, aggregate, and consume the above mentioned metrics and attributes developed in the WG from existing and new devices of almost every kind.
 
-It may be complex and time-consuming to attempt to address all issues related to power consumption and energy efficiency in one step, but it can be practical to select building-blocks that enhances both static capability of devices related to inventory attributes and dynamic energy efficiency metrics will contribute to a more sustainable lifecycle for network devices. The GREEN WG will consider approaches to facilitate the emergence of tools that will serve as a foundation for new energy efficiency strategies. To ensure the effectiveness and alignment of these efforts, the GREEN Working Group will closely coordinate with the IVY Working Group.
+It may be complex and time-consuming to attempt to address all issues related to power consumption and energy efficiency in a single step. It can be practical to define building-blocks that enhance both static device capabilities (related to inventory attributes) and dynamic energy efficiency metrics contributing to a more sustainable network device lifecycle. The GREEN WG will provide tools that will serve as a foundation for new energy efficiency strategies. To ensure the effectiveness and alignment of these efforts, the GREEN Working Group will closely coordinate with the IVY Working Group for inventory related extensions.
 
 **Out of Scope**
 
@@ -39,7 +39,7 @@ The GREEN Working Group will focus on the following program of work:
 - An informational document defining Use cases for identifying energy efficiency metrics, methods related to energy consumption of the networking devices, to optimize energy efficiency across the network. The 
   document will describe 2-3 scenarios and for each of them, it will identify key points needed for interoperability.
 
-- An informational Architecture document that Defines common terminology and metric definitions,categorizes various type of metrics and measurements at component level,device level and network level, defines a set 
+- An informational Architecture document that defines common terminology and metric definitions,categorizes various type of metrics and measurements at component level,device level and network level, defines a set 
   of architectural components for energy efficiency network management.
 
 - A proposed standard document that defines YANG data models for energy efficiency network lifecycle management including energy usage monitoring, energy saving capability control and energy usage optimization
