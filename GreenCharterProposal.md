@@ -22,8 +22,7 @@ The GREEN WG is chartered to concentrate on the following short-term deliverable
    - Providing YANG models to control and optimize energy usage in network devices, including energy saving capabilities. 
    - Developing or selecting a framework to collect, aggregate, and consume the above mentioned metrics and attributes developed in the WG from existing and new devices of almost every kind.
 
-It may be complex and time-consuming to attempt to address all issues related to power consumption and energy efficiency in one step, but it can be practical to select building-blocks that will contribute to the larger effort. The GREEN WG will consider approaches to facilitate the emergence of tools that will serve as a foundation for new energy efficiency strategies.
-
+It may be complex and time-consuming to attempt to address all issues related to power consumption and energy efficiency in one step, but it can be practical to select building-blocks that enhances both static capability of devices related to inventory attributes and dynamic energy efficiency metrics will contribute to a more sustainable lifecycle for network devices. The GREEN WG will consider approaches to facilitate the emergence of tools that will serve as a foundation for new energy efficiency strategies. To ensure the effectiveness and alignment of these efforts, the GREEN Working Group will closely coordinate with the IVY Working Group.
 
 **Out of Scope**
 
@@ -33,8 +32,6 @@ To stay focused, the Working Group will not address energy-related issues in eve
    - Benchmarking methodology for power consumption in networking devices.
    - Methodologies for understanding the impact of energy efficiency optimization on service quality.
    - Regulatory, compliance, and corporate responsibility related matters.
-
-Adopting a longer-term approach to global sustainability efforts requires enhancing inventory attributes. This enhancement will contribute to a more sustainable lifecycle for network devices. To ensure the effectiveness and alignment of these efforts, the GREEN Working Group will closely coordinate with the IVY Working Group.
 
 **Work Items**
 
@@ -55,7 +52,8 @@ The GREEN Working Group will closely collaborate with:
 
    - Other IETF Working Groups that address topics related to power consumption observability and energy efficiency
      management, such as IVY, OPSAWG, and NETMOD.
-   - Working Groups that might have related work or expertise with defining and standardizing metrics and measurement frameworks (e.g., IPPM and BMWG). 
+   - Working Groups that might have related work or expertise with defining and standardizing metrics and measurement 
+     frameworks (e.g., IPPM and BMWG). 
    - Other IRTF Research Groups that provide research inputs and reviews, including PANRG, NMRG.
    - The IAB e-impact program to identify and receive short term metrics related work and to propose longer term problems for further study. 
 
