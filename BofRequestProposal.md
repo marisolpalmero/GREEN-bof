@@ -17,8 +17,8 @@ The BoF discussion should identify a suite of short-term deliverables aimed at e
 - Length of session: 2 hours
 - Conflicts (whole Areas and/or WGs)
    - Chair Conflicts: TBD
-   - Technology Overlap: OPS Area, RTGWG, LSR
-   - Key Participant Conflict: MPLS, TVR
+   - Technology Overlap: OPS Area
+   - Key Participant Conflict: MPLS, TVR, RTGWG, LSR
 
 ## Information for IAB/IESG
 To allow evaluation of your proposal, please include the following items:
@@ -47,12 +47,12 @@ To allow evaluation of your proposal, please include the following items:
 
      - Terminology 
        - Candidate documents: None
-     - Power metrics collection and aggregation framework.
-       - Candidate documents: [draft-lindblad-tlm-philatelist](https://datatracker.ietf.org/doc/draft-lindblad-tlm-philatelist), [draft-kll-yang-label-tsdb](https://datatracker.ietf.org/doc/draft-kll-yang-label-tsdb), [draft-cx-opsawg-green-metrics](https://datatracker.ietf.org/doc/draft-cx-opsawg-green-metrics),[draft-pignataro-eimpact-icmp](https://datatracker.ietf.org/doc/draft-pignataro-eimpact-icmp/)
+     - Power metrics and Meta-Data collection and aggregation framework.
+       - Candidate documents: [draft-lindblad-tlm-philatelist](https://datatracker.ietf.org/doc/draft-lindblad-tlm-philatelist), [draft-kll-yang-label-tsdb](https://datatracker.ietf.org/doc/draft-kll-yang-label-tsdb), [draft-cx-opsawg-green-metrics](https://datatracker.ietf.org/doc/draft-cx-opsawg-green-metrics)
      - Use Cases:
-       - Candidate documents: [draft-stephan-legacy-path-eco-design](https://datatracker.ietf.org/doc/draft-stephan-legacy-path-eco-design/)
+       - Candidate documents: [Inventory related:draft-stephan-legacy-path-eco-design](https://datatracker.ietf.org/doc/draft-stephan-legacy-path-eco-design/)
      - YANG model for power consumption observability and energy saving management.
-       - Candidate documents: [draft-li-ivy-power](https://datatracker.ietf.org/doc/draft-li-ivy-power); [draft-cwbgp-ivy-energy-saving-management](https://datatracker.ietf.org/doc/draft-cwbgp-ivy-energy-saving-management); [draft-petra-path-energy-api](https://datatracker.ietf.org/doc/draft-cwbgp-ivy-energy-saving-management); [draft-opsawg-poweff](https://datatracker.ietf.org/doc/draft-opsawg-poweff)
+       - Candidate documents: [draft-li-ivy-power](https://datatracker.ietf.org/doc/draft-li-ivy-power); [draft-cwbgp-ivy-energy-saving-management](https://datatracker.ietf.org/doc/draft-cwbgp-ivy-energy-saving-management); [draft-petra-path-energy-api](https://datatracker.ietf.org/doc/draft-cwbgp-ivy-energy-saving-management); [draft-opsawg-poweff](https://datatracker.ietf.org/doc/draft-opsawg-poweff);[draft-cx-opsawg-green-metrics](https://datatracker.ietf.org/doc/draft-cx-opsawg-green-metrics/)
 
 
      
