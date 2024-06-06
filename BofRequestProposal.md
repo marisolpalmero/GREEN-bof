@@ -16,23 +16,26 @@ The BoF discussion should identify a suite of short-term deliverables aimed at e
 - Number of people expected to attend: 150
 - Length of session: 2 hours
 - Conflicts (whole Areas and/or WGs)
-   - Chair Conflicts: TBD
-   - Technology Overlap: OPS Area
-   - Key Participant Conflict: MPLS, TVR, RTGWG, LSR
+  - Chair Conflicts: TBD
+  - Technology Overlap: OPS Area
+  - Key Participant Conflict: MPLS, TVR, RTGWG, LSR
 
 ## Information for IAB/IESG
 To allow evaluation of your proposal, please include the following items:
 
-- Any protocols or practices that already exist in this space:
-  - See the new work of IVY working group on energy management and the existing work of the closed EMAN working group.
-  - See metrics work discussion in section 3.3 and section 3.4 of RFC9547.
-  - [See IAB Environment Impact Workshop on Mertrics](https://datatracker.ietf.org/meeting/interim-2022-eimpactws-03/materials/slides-interim-2022-eimpactws-03-sessa-iab-e-impact-ws-session-3-metrics-01.pdf) 
-- Which (if any) modifications to existing protocols or practices are required:
-  - Approaches are likely to use NETCONF/RESTCONF/CORECONF and YANG.
-- Which (if any) entirely new protocols or practices are required:
-  - None identified so far.
-- Open source projects (if any) implementing this work:
-  - None identified so far.
+* Any protocols or practices that already exist in this space:
+  * See the new work of IVY working group on energy management and the existing work of the closed EMAN working group.
+  * See metrics work discussion in section 3.3 and section 3.4 of RFC9547.
+  * [See IAB Environment Impact Workshop on Mertrics](https://datatracker.ietf.org/meeting/interim-2022-eimpactws-03/materials/slides-interim-2022-eimpactws-03-sessa-iab-e-impact-ws-session-3-metrics-01.pdf) 
+
+* Which (if any) modifications to existing protocols or practices are required:
+  * Approaches are likely to use NETCONF/RESTCONF/CORECONF and YANG.
+
+* Which (if any) entirely new protocols or practices are required:
+  * None identified so far.
+
+* Open source projects (if any) implementing this work:
+  * None identified so far.
 
 
 ## Agenda
@@ -40,19 +43,19 @@ To allow evaluation of your proposal, please include the following items:
    [BoF Agenda Proposal](https://github.com/marisolpalmero/GREEN-bof/blob/main/BoFAgenda.md)
 
 ## Links to the mailing list, draft charter if any, relevant Internet-Drafts, etc.
-   - Mailing List: https://www.ietf.org/mailman/listinfo/green-bof
-   - Draft charter: [Datatracker Link](https://datatracker.ietf.org/doc/charter-ietf-EXAMPLE/),
+* Mailing List: https://www.ietf.org/mailman/listinfo/green-bof
+* Draft charter: [Datatracker Link](https://datatracker.ietf.org/doc/charter-ietf-EXAMPLE/),
                     [Github Charter Proposal](https://github.com/marisolpalmero/GREEN-bof/blob/main/GreenCharterProposal.md)
-   - Relevant Internet-Drafts:
+* Relevant Internet-Drafts:
 
-     - Terminology 
-       - Candidate documents: None
-     - Power metrics and Meta-Data collection and aggregation framework.
-       - Candidate documents: [draft-lindblad-tlm-philatelist](https://datatracker.ietf.org/doc/draft-lindblad-tlm-philatelist), [draft-kll-yang-label-tsdb](https://datatracker.ietf.org/doc/draft-kll-yang-label-tsdb), [draft-cx-opsawg-green-metrics](https://datatracker.ietf.org/doc/draft-cx-opsawg-green-metrics)
-     - Use Cases:
-       - Candidate documents: [Inventory related:draft-stephan-legacy-path-eco-design](https://datatracker.ietf.org/doc/draft-stephan-legacy-path-eco-design/)
-     - YANG model for power consumption observability and energy saving management.
-       - Candidate documents: [draft-li-ivy-power](https://datatracker.ietf.org/doc/draft-li-ivy-power); [draft-cwbgp-ivy-energy-saving-management](https://datatracker.ietf.org/doc/draft-cwbgp-ivy-energy-saving-management); [draft-petra-path-energy-api](https://datatracker.ietf.org/doc/draft-cwbgp-ivy-energy-saving-management); [draft-opsawg-poweff](https://datatracker.ietf.org/doc/draft-opsawg-poweff);[draft-cx-opsawg-green-metrics](https://datatracker.ietf.org/doc/draft-cx-opsawg-green-metrics/)
+  * Terminology 
+    * Candidate documents: None
+  * Power metrics and Meta-Data collection and aggregation framework.
+    * Candidate documents: [draft-lindblad-tlm-philatelist](https://datatracker.ietf.org/doc/draft-lindblad-tlm-philatelist), [draft-kll-yang-label-tsdb](https://datatracker.ietf.org/doc/draft-kll-yang-label-tsdb), [draft-cx-opsawg-green-metrics](https://datatracker.ietf.org/doc/draft-cx-opsawg-green-metrics)
+  * Use Cases:
+    * Candidate documents: [Inventory related:draft-stephan-legacy-path-eco-design](https://datatracker.ietf.org/doc/draft-stephan-legacy-path-eco-design/)
+  * YANG model for power consumption observability and energy saving management.
+    * Candidate documents: [draft-li-ivy-power](https://datatracker.ietf.org/doc/draft-li-ivy-power); [draft-cwbgp-ivy-energy-saving-management](https://datatracker.ietf.org/doc/draft-cwbgp-ivy-energy-saving-management); [draft-petra-path-energy-api](https://datatracker.ietf.org/doc/draft-cwbgp-ivy-energy-saving-management); [draft-opsawg-poweff](https://datatracker.ietf.org/doc/draft-opsawg-poweff);[draft-cx-opsawg-green-metrics](https://datatracker.ietf.org/doc/draft-cx-opsawg-green-metrics/)
 
 
      
