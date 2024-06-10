@@ -18,7 +18,7 @@ As models and metrics are developed, standardized, and implemented in production
 
 The GREEN WG is chartered to concentrate on the following short-term deliverables:
 
-   - Defining terms and definitions related to energy metrics. Where possible, terms and definitions existing in existing RFCs will be reused.
+   - Defining terms and definitions related to energy metrics. Where possible, terms and definitions in existing RFCs will be reused.
    - Developing YANG models to enable controling, monitoring and reporting of energy usage through metrics and attributes at component, device, and network levels.
    - Providing YANG models to control and optimize energy usage in network devices, and across the network, including energy saving capabilities. 
    - Documenting both the energy consumption metrics and their associated YANG data models, along with guidance on how to use and interpret them.
