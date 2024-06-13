@@ -1,18 +1,18 @@
 BoF proposed agenda:
 
 
--	The usual administrivia
+-	The usual administrivia (5 minutes)                                
 -	A chance for the AD to say what he expects from the meeting (5 minutes)
 -	An overview of the desires and objectives preferably from a network operator (15 minutes)
 -	An introduction to the topic from someone who knows how components use power (10 minutes)
--	A summary of the sorts of things a working group do (30 minutes)
+-	A summary of the sorts of things a working group do (25 minutes)
     - Metrics, YANG, and consideration of EMAN work
     - Coordination with E-impact
     - Coordination with IVY 
     - Possible architectural models : centralized versus distributed
 -	A discussion   (60 minutes)
     -	The draft charter      
-    -	Questions for the room 
+    -	Questions from the room 
 
 Speakers:
 
