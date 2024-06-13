@@ -47,13 +47,13 @@ To stay focused, the Working Group will not address energy-related issues in eve
 
 The GREEN Working Group will focus on the following program of work:
 
-- An Informational document defining Use cases for identifying energy efficiency metrics, methods related to energy consumption of the networking devices, to optimize energy efficiency across the network. The 
-  document will describe 2-3 scenarios and for each of them, it will identify key points needed for interoperability.
+- Start by producing guidance for vendors on how to expose information from legacy devices about the parts which have been upgraded with more energy efficient components.
 
-- An Informational Architecture document that defines common terminology and metric definitions,categorizes various type of metrics and measurements at component level,device level and network level, defines a set 
-  of architectural components for energy efficiency network management.
+- An Informational document defining Use cases for identifying energy efficiency metrics, methods related to energy consumption of the networking devices, to optimize energy efficiency across the network. The document will describe 2-3 scenarios and for each of them, it will identify key points needed for interoperability.
 
-- A Proposed Standard document that defines YANG data models for energy efficiency network lifecycle management including energy usage monitoring, energy saving capability control and energy usage optimization
+- An Informational Architecture document that defines common terminology and metric definitions,categorizes various type of metrics and measurements at component level,device level and network level, defines a set of architectural components for energy efficiency network management.
+
+- A Proposed Standard document that defines YANG data models for energy efficiency network lifecycle management including energy usage monitoring, energy saving capability control and energy usage optimization.
 
 - An Informational document defining Framework for Energy metrics collection and aggregation to support incremental deployment of new energy efficiency metrics. 
 
