@@ -16,8 +16,13 @@ BoF proposed agenda:
 
 Speakers:
 
-Tony Li is vounteer to present(Issue #53):
+Tony Li is volunteer to present(Issue #53):
 - "An introduction to the topic from someone who knows how components use power"
 - "A centralized approach to network energy management" 
     o Juniper Candidate to present (Tony Li)
 - "A distributed approach to network energy management"
+
+Marisol Palmero/Jan Lindblad are volunteer to present (subject to change speakers to other authors for the poweff/philatelist/sustainability-insights drafts)
+- metrics
+- framework
+- considering to address GAPs considered part of new WG focus and outside of the EMAN work.
