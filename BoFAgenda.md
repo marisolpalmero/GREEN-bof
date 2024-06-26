@@ -21,8 +21,16 @@ Tony Li is volunteer to present(Issue #53):
 - "A centralized approach to network energy management" 
     o Juniper Candidate to present (Tony Li)
 - "A distributed approach to network energy management"
-
+Recommend Luis/Emile to present
+- use cases
+- requirements
+  
 Marisol Palmero/Jan Lindblad are volunteer to present (subject to change speakers to other authors for the poweff/philatelist/sustainability-insights drafts)
 - metrics
 - framework
 - considering to address GAPs considered part of new WG focus and outside of the EMAN work.
+
+Recommend Benoit/Med/Oscar/ChenGen/Qin to present
+- EMAN Comparision analysis
+- Terminology and defintion
+- Power measurement at component level and device level
