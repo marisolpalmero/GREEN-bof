@@ -5,8 +5,7 @@ Charter proposal for Get Ready Energy Efficiency Network (GREEN)
 Energy efficiency gains for communication systems are highly sought after, for environmental, business, and technical reasons. Network operators are seeking for tools and solutions to better assess and control the energy consumption of links, devices, and devices/components across their networks. That trend influences also Standards Development Organizations (SDOs) in the information technology field, e.g., work on energy efficiency metrics and various technology improvements.
 
 Network energy-efficiency management involves deploying and managing network infrastructures with the goal of
-optimizing energy use on network devices while improving the overall network utilization. This includes adopting technologies to monitor and effectively manage energy consumption, evaluating the effectiveness of energy-saving policies beyond
-simply reducing consumption, implementing control strategies that enhance overall energy efficiency in network operations.
+optimizing energy use on network devices while improving the overall network utilization. This includes adopting technologies to monitor and effectively manage energy consumption, evaluating the effectiveness of energy-saving policies beyond simply reducing consumption, implementing control strategies that enhance overall energy efficiency in network operations.
 
 RFC 6988 provides a set of requirements and guidelines for monitoring and managing power usage of devices within, or connected to, networks such as Power over Ethernet (PoE) switches. The GREEN Working Group will examine that work with a view to re-using it where possible, and developing new requirements (e.g., related to static device capabilities and energy efficiency metrics) for operator-managed network devices according to current use cases and applications. More recently, RFC 9547 highlighted the need of further work on metrics, measurements, ability to slow down and sleep devices or part of them, etc. However, there is no consistent view within the industry for terminologies to categorize various type of metrics and measurements.
 
@@ -16,12 +15,12 @@ As models and metrics are developed, standardized, and implemented in production
 
 **Goals and Scope**
 
-The GREEN WG is chartered to concentrate on the following short-term deliverables:
+The GREEN WG is chartered to explore Use cases and requirements for identifying energy efficiency metrics, methods related to energy consumption of the networking devices, and optimizing energy efficiency across the network and concentrate on the following short-term deliverables:
 
    - Defining terms and definitions related to energy metrics. Where possible, terms and definitions in existing RFCs will be reused.
-   - Developing YANG models to enable controling, monitoring and reporting of energy usage through metrics and attributes at component, device, and network levels.
+   - Developing YANG models to enable monitoring and reporting of energy usage through metrics and attributes at component, device, and network levels.
    - Providing YANG models to control and optimize energy usage in network devices, and across the network, including energy saving capabilities. 
-   - Developing or selecting a framework to collect, aggregate, and consume the energy consumption metrics and attributes developed in the WG from existing and new devices of almost every kind.
+   - Developing or selecting a framework to collect, aggregate, and consume the energy consumption metrics and attributes developed in the WG from existing and new devices of almost every kind and produce guidance for vendors on how to expose information from legacy devices about the parts which have been upgraded with more energy efficient components.
 
 It may be complex and time-consuming to attempt to address all issues related to power consumption and energy efficiency 
 in a single step. It can be practical to define building blocks that enhance both static device capabilities (related to 
@@ -41,14 +40,11 @@ To stay focused, the Working Group will not address energy-related issues in eve
    - Methodologies for asessing environmental sustainability and related performance for the network devices.
    - Methodologies for understanding the impact of energy efficiency optimization on service quality.
    - Regulatory, compliance, and corporate responsibility related matters.
+   - Cross-domain use of these measurements between parties that do trust each other or don't trust each other.
 
 **Work Items**
 
 The GREEN Working Group will focus on the following program of work:
-
-- Start by producing guidance for vendors on how to expose information from legacy devices about the parts which have been upgraded with more energy efficient components.
-
-- An Informational document defining Use cases for identifying energy efficiency metrics, methods related to energy consumption of the networking devices, to optimize energy efficiency across the network. The document will describe 2-3 scenarios and for each of them, it will identify key points needed for interoperability.
 
 - An Informational Architecture document that defines common terminology and metric definitions,categorizes various type of metrics and measurements at component level,device level and network level, defines a set of architectural components for energy efficiency network management.
 
@@ -69,7 +65,7 @@ The GREEN Working Group will closely collaborate with:
      for further study.
      
 Collaboration with Industry stakeholders and regulatory bodies to ensure alignment with current and future regulatory 
-framework is encouraged. The GREEN Working Groups will also liaise with other SDOs on benchmarking methodologies for collaboration and consultation, mainly:
+framework is encouraged. The GREEN Working Group will also liaise with other SDOs on benchmarking methodologies for collaboration and consultation, mainly:
 
    - The European Telecommunications Standards Institute (ETSI), particularly with regard to the Technical
      Committee of Environment Engineering (TCEE).
