@@ -2,7 +2,7 @@ Charter proposal for Get Ready Energy Efficiency Network (GREEN)
 
 **Background and Motivation**
 
-Energy efficiency gains for communication systems are highly sought after, for environmental, business, and technical reasons. Network operators are seeking for tools and solutions to better assess and control the energy consumption of networks, devices, and devices/components across their networks. That trend influences also Standards Development Organizations (SDOs) in the information technology field, e.g., work on energy efficiency metrics and various technology improvements.
+Energy efficiency gains for communication systems are highly sought after, for environmental, business, and technical reasons. Network operators are seeking for tools and solutions to better assess and control the energy consumption of networks, devices, and devices/components across their networks,and also support a robust and comprenhensive Energy Efficiency Strategy. That trend also influences Standards Development Organizations (SDOs) in the information technology field, e.g., work on energy efficiency metrics and various technology improvements.
 
 Network energy-efficiency management involves deploying and managing network infrastructures with the goal of
 optimizing energy use on network devices while improving the overall network utilization. This includes adopting management plane technologies to monitor and effectively manage energy consumption, evaluating the effectiveness of energy-saving policies beyond simply reducing consumption, implementing control strategies that enhance overall energy efficiency in network operations.
