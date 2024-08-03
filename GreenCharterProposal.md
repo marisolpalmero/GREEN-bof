@@ -19,7 +19,7 @@ The GREEN WG is chartered to explore Use cases and requirements for identifying 
 
    - Defining terms and definitions related to energy efficiency metrics. Where possible, terms and definitions in existing RFCs will be reused.
    - Developing YANG models to enable measuring and reporting of energy usage through metrics and attributes at component, device, and network levels.
-   - Providing YANG models to control and optimize energy usage in network devices, and across the network, including energy saving capabilities. 
+   - Providing YANG models to optimize energy usage in network devices, and across the network, via energy saving capabilities control. 
    - Developing or selecting a framework to collect, aggregate, and consume the energy consumption metrics and attributes developed in the WG from existing and new devices of almost every kind. Guidance for vendors will be produced on how to expose information from legacy devices about the parts which have been upgraded with more energy efficient components.
 
 It may be complex and time-consuming to attempt to address all issues related to power consumption and energy efficiency 
@@ -48,9 +48,9 @@ The GREEN Working Group will focus on the following program of work:
 
 - An Informational Architecture document that defines common terminology and metric definitions,categorizes various type of metrics and measurements at component level,device level and network level, defines a set of architectural components for energy efficiency network management.
 
-- A Proposed Standard document that defines YANG data models for energy efficiency network lifecycle management including energy usage monitoring, energy saving capability control and energy usage optimization.
+- A Proposed Standard document that defines YANG data models at the both device level and network level for energy efficiency network management including energy usage monitoring, energy saving capability control.
 
-- An Informational document defining Framework for Energy metrics collection and aggregation to support incremental deployment of new energy efficiency metrics. 
+- An Informational document defining deployment consideration for Energy metrics collection and aggregation to support incremental deployment of new energy efficiency metrics. 
 
 **Dependencies and Liaisons**
 
