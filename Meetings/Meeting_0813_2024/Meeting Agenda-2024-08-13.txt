@@ -1,0 +1,6 @@
+Meeting Agenda
+1. GREEN BOF Charter Status Update
+2. GREEN BOF 120 discussion and impact on the Charter
+3. The github open tickets and impact on the Charter
+4. Mailing list discussion Summary and impact on the Charter
+5. Wrapup
