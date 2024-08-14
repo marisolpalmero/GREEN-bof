@@ -2,7 +2,7 @@ Charter proposal for Get Ready Energy Efficiency Network (GREEN)
 
 **Background and Motivation**
 
-Energy efficiency gains for communication systems are highly sought after, for environmental, business, and technical reasons. Network operators are seeking for tools and solutions to better assess and control the energy consumption of networks, devices, and devices/components across their networks,and also support a robust and comprenhensive Energy Efficiency Strategy. That trend also influences Standards Development Organizations (SDOs) in the information technology field, e.g., work on energy efficiency metrics and various technology improvements.
+Energy efficiency gains for communication systems are highly sought after, for environmental, business, and technical reasons. Network operators are seeking for tools and solutions to better assess and control the energy consumption of networks, devices, and devices/components across their networks, and also support a robust and comprenhensive Energy Efficiency strategy. That trend also influences Standards Development Organizations (SDOs) in the information technology field, e.g., work on energy efficiency metrics and various technology improvements.
 
 Network energy-efficiency management involves deploying and managing network infrastructures with the goal of
 optimizing energy use on network devices while improving the overall network utilization. This includes adopting management plane technologies to monitor and effectively manage energy consumption, evaluating the effectiveness of energy-saving policies beyond simply reducing consumption, implementing control strategies that enhance overall energy efficiency in network operations.
@@ -11,11 +11,11 @@ RFC 6988 provides a set of requirements and guidelines for monitoring and managi
 
 In addition, the absence of standardized interfaces for measuring, reporting, and controlling energy consumption across diverse network setups remains a significant challenge. Therefore, new data models, metrics are required to optimize energy efficiency across the network. The EMAN WG specified a set of relevant MIBs in this area, but YANG models are now the rule (see also [1]).
 
-As models and metrics are developed, standardized, and implemented in production networks, it will take many years before nearly all equipments in the field supports the new models and metrics. Therefore it will be necessary to map legacy metrics to the new models and allow a wide variety of collection mechanisms. Specifically, even though the collection process itself is modeled in YANG, devices cannot generally be assumed to have the data which is to be collected available in any YANG-based management interface.
+As models and metrics are developed, standardized, and implemented in production networks, it will take many years before nearly all equipment in the field support the new models and metrics. Therefore it will be necessary to map legacy metrics to the new models and allow a wide variety of collection mechanisms. Specifically, even though the collection process itself is modeled in YANG, devices cannot generally be assumed to have the data which is to be collected available using any YANG-based management interface.
 
 **Goals and Scope**
 
-The GREEN WG is chartered to explore Use cases and requirements for identifying energy efficiency metrics, methods related to energy consumption of the networking devices, and optimizing energy efficiency across the network and concentrate on the following short-term deliverables:
+The GREEN WG is chartered to explore use cases and requirements for identifying energy efficiency metrics, methods related to energy consumption of the networking devices, and optimizing energy efficiency across the network and concentrate on the following short-term deliverables:
 
    - Defining terms and definitions related to energy efficiency metrics. Where possible, terms and definitions in existing RFCs will be reused.
    - Developing YANG models to enable measuring and reporting of energy usage through metrics and attributes at component, device, and network levels.
@@ -46,11 +46,11 @@ To stay focused, the Working Group will not address energy-related issues in eve
 
 The GREEN Working Group will focus on the following program of work:
 
-- An Informational Architecture document that defines common terminology and metric definitions,categorizes various type of metrics and measurements at component level,device level and network level, defines a set of architectural components for energy efficiency network management.
+- An Informational Architecture document that (1) defines common terminology and metric definitions, (2) categorizes various type of metrics and measurements at component, device, and network levels, and (3) defines a set of architectural components for energy efficiency network management.
 
-- A Proposed Standard document that defines YANG data models at the both device level and network level for energy efficiency network management including energy usage monitoring, energy saving capability control.
+- A Proposed Standard document that defines YANG data models at the both device level and network level for energy efficiency network management including energy usage monitoring and energy saving capability control.
 
-- An Informational document defining deployment consideration for Energy metrics collection and aggregation to support incremental deployment of new energy efficiency metrics. 
+- An Informational document that describes deployment considerations for energy metrics collection and aggregation to support incremental deployment of new energy efficiency metrics. 
 
 **Dependencies and Liaisons**
 
