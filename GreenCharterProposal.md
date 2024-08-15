@@ -10,7 +10,7 @@ RFC 6988 provides a set of requirements and guidelines for monitoring and managi
 
 In addition, the absence of standardized interfaces for measuring, reporting, and controlling energy consumption across diverse network setups remains a significant challenge. Therefore, new data models, and metrics are required to optimize energy efficiency across the network. The EMAN WG specified a set of relevant MIBs in this area, but YANG models are now preferred [1].
 
-As models and metrics are developed, standardized, and implemented in production networks, it will take many years before nearly all equipments in the field provides support. 
+As models and metrics are developed, standardized, and implemented in production networks, it will take many years before nearly all equipment in the field provides support. 
 
 **Goals and Scope**
 
@@ -20,7 +20,7 @@ The GREEN WG is chartered to explore use cases and requirements for identifying 
    - Define terms and definitions related to energy efficient metrics. Where possible, terms and definitions in existing RFCs will be reused.
    - Develop YANG models to enable measuring and reporting of energy usage through metrics and attributes at component, device, and network levels.
    - Provide YANG models to allow operators optimize energy usage in network devices, and across the network, via energy saving capabilities control.
-   -  Develp or select a multi-level framework for energy efficiency monitoring, energy efficiency capability discovery and control within a network domain. 
+   -  Develop or select a multi-level framework for energy efficiency monitoring, energy efficiency capability discovery and control within a network domain. 
 
 It may be complex and time-consuming to address all issues related to power consumption and energy efficiency 
 in a single step. It can be practical to define building blocks that enhance both static device capabilities (related to 
@@ -58,7 +58,7 @@ The GREEN Working Group will closely collaborate with:
      management, such as IVY, OPSAWG, and NETMOD.
    - Working Groups that might have related work or expertise with defining and standardizing metrics, measurement 
      frameworks and benchmarking methodology (e.g., IPPM and BMWG). 
-   - Other IRTF Research Groups that provide research inputs and reviews, including PANRG,and NMRG
+   - Other IRTF Research Groups that provide research inputs and reviews, including PANRG and NMRG.
    - The IAB e-impact program to identify short-term metrics-related work and propose longer-term problems for further study.
      
 The WG will collaborate with industry stakeholders and regulatory bodies to ensure alignment with current and future regulatory frameworks. The GREEN Working Group will also liaise with other SDOs on benchmarking methodologies for collaboration and consultation, mainly:
