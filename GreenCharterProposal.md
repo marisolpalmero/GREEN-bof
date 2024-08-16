@@ -25,7 +25,7 @@ The GREEN WG is chartered to explore use cases and requirements for identifying 
 It may be complex and time-consuming to address all issues related to power consumption and energy efficiency 
 in a single step. It can be practical to define building blocks that enhance both static device capabilities (related to 
 inventory attributes) and dynamic energy efficiency metrics contributing to the network device operational lifecycle. 
-The GREEN WG will provide tools to serve as a foundation for new energy efficiency strategies for operators. 
+The GREEN WG will provide tools to serve as a foundation for new energy efficiency strategies for operators. The working group will strive for implementation of YANG models before requesting publication as an RFC.
 
 **Out of Scope**
 
