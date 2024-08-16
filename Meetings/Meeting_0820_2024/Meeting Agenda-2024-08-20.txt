@@ -1,0 +1,3 @@
+Meeting Agenda
+1. Operator's requirements
+2. What needs to be standardized in the framework
