@@ -6,21 +6,25 @@ Energy efficiency gains for communication systems are highly sought after, for e
 
 Energy efficient network management involves deploying and managing network infrastructures to optimize energy use on network devices while improving overall network utilization. This includes adopting management plane technologies to monitor and manage energy consumption, evaluating the effectiveness of energy-saving policies beyond simply reducing consumption, and implementing control strategies that enhance overall energy efficiency in network operations.
 
-RFC 6988 provides a set of requirements and guidelines for monitoring and managing power usage of devices (e.g., IP cameras, access points) within, or connected to, networks. The GREEN Working Group will examine that work to re-use it where possible, and develop new requirements (e.g., related to static device capabilities and energy efficiency metrics) for operator-managed IP devices according to current use cases and applications. More recently, RFC 9547 highlighted the need for further work on metrics, measurements, and the ability to slow down or sleep devices or components, etc. However, there is no consistent view within the industry for terminologies to categorize various metrics and measurements.
+RFC 6988 provides a set of requirements and guidelines for monitoring and managing power usage of devices (e.g., IP cameras, access points) within, or connected to, networks. The GREEN Working Group will examine that work to re-use it where possible, and develop new requirements (e.g., related to static device capabilities and energy efficiency metrics) for operator-managed IP devices according to current use cases and applications. More recently, RFC 9547 highlighted the need for further work on metrics, measurements, and the ability to slow down or sleep devices or components, etc. However, there is no consistent view within the networking industry for terminologies to categorize various metrics and measurements in IETF.
 
 In addition, the absence of standardized interfaces for measuring, reporting, and controlling energy consumption across diverse network setups remains a significant challenge. Therefore, new data models, and metrics are required to optimize energy efficiency across the network. The EMAN WG specified a set of relevant MIBs in this area, but YANG models are now preferred [1].
 
-As models and metrics are developed, standardized, and implemented in production networks, it will take many years before nearly all equipment in the field provides support. 
+As models and metrics are developed, standardized, and implemented in production networks, it will take many years before nearly all equipment in the field provides support. Therefore it is important to provide guidance for incremental deployment of energy-efficient functions in both network devices and the energy efficiency network management system.
 
 **Goals and Scope**
 
 The GREEN WG is chartered to explore use cases and requirements for identifying energy efficiency metrics, methods related to energy consumption of IP devices, and optimizing energy efficiency across the network. It will concentrate on the following short-term deliverables:
 
    - Define use cases for energy efficiency network management.
-   - Define terms and definitions related to energy efficient metrics. Where possible, terms and definitions in existing RFCs will be reused.
-   - Develop YANG models to enable measuring and reporting of energy usage through metrics and attributes at component, device, and network levels.
-   - Provide YANG models to allow operators optimize energy usage in network devices, and across the network, via energy saving capabilities control.
-   -  Develop or select a multi-level framework for energy efficiency monitoring, energy efficiency capability discovery and control within a network domain. 
+   - Define terms and definitions related to energy efficient metrics. Where possible, terms and definitions in existing RFCs 
+     will be reused.
+   - Develop YANG models to enable measuring and reporting of energy usage through metrics and attributes at component, 
+     device, and network levels.
+   - Provide YANG models to allow operators optimize energy usage in network devices, and across the network, via energy 
+     saving capabilities control.
+   - Develop or select a multi-level framework for energy efficiency monitoring, energy efficiency capability discovery and 
+     control within a network domain. 
 
 It may be complex and time-consuming to address all issues related to power consumption and energy efficiency 
 in a single step. It can be practical to define building blocks that enhance both static device capabilities (related to 
@@ -31,24 +35,24 @@ The GREEN WG will provide tools to serve as a foundation for new energy efficien
 
 To stay focused, the Working Group will not address energy-related issues in every networking area. Some topics are already covered in other venues while others may not be mature enough or present major shortcomings (e.g., have well-documented but unresolved security threats). The following topics are not within the scope of the Working Group:
 
-   - Routing protocols and algorithms, including those that consider energy factors.
-   - The carbon accounting and reporting protocol to measure, manage, and report greenhouse gas emissions and other 
-     sustainability-related data. 
-   - Methodologies for assessing environmental sustainability and related performance for the network devices.
-   - Methodologies for understanding the impact of energy efficiency optimization on service quality.
    - Regulatory, compliance, and corporate responsibility related matters.
-   - Cross-domain use of these measurements between trusted or untrusted parties.
+   - Routing protocols and algorithms, including those that consider energy factors.
+   - Cross-domain telemetry and use of these measurements between trusted or untrusted parties.
+   - Methodologies for understanding the impact of energy efficiency optimization on service quality.
+   - Methodologies for assessing environmental sustainability and related performance for the network devices.
+   - The carbon accounting and reporting protocol to measure, manage, and report greenhouse gas emissions and other 
+     sustainability-related data such as renewable energy data.
    - Metadata formats for renewable energy or carbon related data within the energy efficiency network management system.
 
 **Work Items**
 
 The GREEN Working Group will focus on the following:
 
-- An Informational Architecture document that (1) defines common terminology and metric definitions, (2) categorizes various types of metrics and measurements at component, device, and network levels, and (3) defines a set of architectural components for energy efficient network management.
+- An Informational document that (1) defines common terminology and metric definitions, (2) categorizes various types of metrics and measurements at component, device, and network levels.
 
 - A Proposed Standard document that defines YANG data models at both the device level and network level for energy efficiency network management including energy usage monitoring, energy saving capability, and control.
 
-- An Informational document that describes incremental deployment considerations for  new energy efficiency metrics monitoring and capability discovery, and control within a network domain.
+- An Informational document that (1) defines a set of architectural components for energy efficient network management and (2) describes incremental deployment considerations for new energy efficiency metrics monitoring and capability discovery, and control within a network domain.
 
 **Dependencies and Liaisons**
 
