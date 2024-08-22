@@ -44,6 +44,9 @@ To stay focused, the Working Group will not address energy-related issues in eve
      sustainability-related data such as renewable energy data.
    - Metadata formats for renewable energy or carbon related data within the energy efficiency network management system.
 
+There is, however, considerable interest in carbon aware work from network operators,
+for instance, and a future recharter of this working group is likely to address this in some manner.
+
 **Work Items**
 
 The GREEN Working Group will focus on the following:
