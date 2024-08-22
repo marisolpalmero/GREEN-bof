@@ -53,7 +53,7 @@ The GREEN Working Group will focus on the following:
 
 - An Informational document that (1) defines common terminology and metric definitions, (2) categorizes various types of metrics and measurements at component, device, and network levels.
 
-- A Proposed Standard document that defines YANG data models at both the device level and network level for energy efficiency network management including energy usage monitoring, energy saving capability, and control.
+- Standard Track definitions of YANG data models at both the device level and network level for energy efficiency network management including energy usage monitoring, energy saving capability, and control.
 
 - An Informational document that (1) defines a set of architectural components for energy efficient network management and (2) describes incremental deployment considerations for new energy efficiency metrics monitoring and capability discovery, and control within a network domain.
 
